@@ -3,7 +3,7 @@
 ## What idea(s) do you have for your final project?
 
 1. Multi-page webpage 
-2. Twitter Sentiment Analysis 
+2. Basic Two Level Video Game
 3. Chatbot 
 
 ## If you plan to collaborate with one or two classmates, what are their names?
