@@ -2,8 +2,8 @@
 
 ## What idea(s) do you have for your final project?
 
-1. Multi-page webpage 
-2. Basic Two Level Video Game
+1. Multi-page website
+2. Quiz Game App
 3. Chatbot 
 
 ## If you plan to collaborate with one or two classmates, what are their names?
