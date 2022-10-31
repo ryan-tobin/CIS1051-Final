@@ -2,7 +2,7 @@
 
 ## What idea(s) do you have for your final project?
 
-1. Multi-page website
+1. NFL Live Stats Website 
 2. Quiz Game App
 3. Chatbot 
 
