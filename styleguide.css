@@ -1,11 +1,44 @@
-:root { 
-    --danger--dc3545: #dc3545;
-    --dark--hover--23272b: #23272b;
-   
-    --font-size-l: 29px;
-    --font-size-m: 16px;
-   
-    --font-family-montserrat: "Montserrat";
-  }
-  
-  /* styleguide.css */
+:root {
+  --eerie-black: rgba(27,28,29,1);
+  --eerie-black-2: rgba(29,30,31,1);
+  --dark-hover-23272b: rgba(35,39,43,1);
+  --gravel: rgba(72,73,73,1);
+  --dove-gray: rgba(112,112,112,1);
+  --danger-dc3545: rgba(220,53,69,1);
+  --white: rgba(255,255,255,1);
+  --quick-silver: rgba(165,166,167,1);
+  --red : rgba(220,53,69,1);
+
+  --font-size-xxs: 8px;
+  --font-size-xs: 12px;
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 22px;
+
+  --font-family-monserrat: Montserrat;
+}
+
+.montserrat-medium-gravel-14px {
+  color: var(--gravel);
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-bold-quick-silver-12px {
+  color: var(--quick-silver);
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-bold-eerie-black-12px {
+  color: var(--eerie-black-2);
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  font-style: normal;
+}
