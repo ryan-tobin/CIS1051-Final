@@ -7,8 +7,8 @@
 }
 
 .web-screen {
-  background-color: #eaebee;
-  height: 1080px;
+  background-color: #f2e8e6;
+  height: 1044px;
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
@@ -18,7 +18,7 @@
 .monserrat-bold-1 {
   background-color: transparent;
   height: auto;
-  left: 625px;
+  left: 622px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -30,7 +30,7 @@
 
 .nfl-live-stats {
   background-color: transparent;
-  color: var(--red);
+  color: #1e728e;
   font-family: var(--font-family-monserrat);
   font-size: var(--font-size-l);
   font-weight: 700;
@@ -45,6 +45,23 @@
   width: auto;
 }
 
+.specific-header-1 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  height: auto;
+  left: 67px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
 .span0 {
   color: #000000;
   font-style: normal;
@@ -52,6 +69,11 @@
 
 .span1 {
   font-size: var(--font-size-m);
+  font-style: normal;
+}
+
+.span2 {
+  font-size: var(--font-size-s);
   font-style: normal;
 }
 
@@ -68,7 +90,7 @@
   line-height: 12px;
   position: absolute;
   text-align: left;
-  top: 4px;
+  top: 5px;
   white-space: nowrap;
   width: auto;
 }
@@ -76,7 +98,7 @@
 .monserrat-bold-3 {
   background-color: transparent;
   height: auto;
-  left: 477px;
+  left: 478px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -99,7 +121,7 @@
   line-height: 12px;
   position: absolute;
   text-align: left;
-  top: 4px;
+  top: 4.54px;
   white-space: nowrap;
   width: auto;
 }
@@ -117,9 +139,9 @@
 }
 
 .rec-3 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 77px;
   left: 459px;
   position: absolute;
@@ -128,9 +150,9 @@
 }
 
 .rec-14 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 78px;
   left: 1414px;
   position: absolute;
@@ -139,9 +161,9 @@
 }
 
 .rec-13 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 78px;
   left: 1223px;
   position: absolute;
@@ -168,9 +190,9 @@
 }
 
 .rec-15 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 78px;
   left: 1605px;
   position: absolute;
@@ -181,7 +203,7 @@
 .monserrat-bold-2 {
   background-color: transparent;
   height: auto;
-  left: 619px;
+  left: 616.5px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -196,8 +218,9 @@
   height: 1px;
   left: 164px;
   position: absolute;
-  top: 316px;
+  top: 311px;
   width: 240px;
+  border-style: none none dotted;
 }
 
 .line-2 {
@@ -205,8 +228,9 @@
   height: 1px;
   left: 164px;
   position: absolute;
-  top: 218px;
+  top: 212px;
   width: 240px;
+  border-style: none none dotted;
 }
 
 .line-3 {
@@ -214,8 +238,9 @@
   height: 1px;
   left: 164px;
   position: absolute;
-  top: 365px;
+  top: 360px;
   width: 240px;
+  border-style: none none dotted;
 }
 
 .line-4 {
@@ -223,23 +248,23 @@
   height: 1px;
   left: 164px;
   position: absolute;
-  top: 267px;
+  top: 262px;
   width: 240px;
+  border-style: none none dotted;
 }
 
 .line-5 {
-  background-color: transparent;
   height: 1px;
   left: 164px;
   position: absolute;
-  top: 173px;
+  top: 168px;
   width: 240px;
 }
 
 
 .top-yardage {
   background-color: transparent;
-  color: var(--gravel);
+  color: black;
   font-family: var(--font-family-monserrat);
   font-size: var(--font-size-1);
   font-style: normal;
@@ -263,15 +288,20 @@
   line-height: 14px;
   position: absolute;
   text-align: left;
-  top: 334px;
+  top: 336px;
   white-space: nowrap;
   width: auto;
 }
 
+.sacks a {
+  color: black;
+  text-decoration: none;
+}
+
 .rec-12 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 78px;
   left: 1032px;
   position: absolute;
@@ -300,10 +330,15 @@
   width: auto;
 }
 
+.interceptions a {
+  color: black;
+  text-decoration: none;
+}
+
 .monserrat-bold-4 {
   background-color: transparent;
   height: auto;
-  left: 477px;
+  left: 478px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -314,9 +349,10 @@
 }
 
 .rec-20 {
-  background-color: var(--white);
-  border-radius: 16px;
-  box-shadow: 0px 3px 6px #00000046;
+  background-color: #e0e0e0;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe,
+  -10px -10px 15px #ffffff;
   height: 487px;
   left: 1597px;
   position: absolute;
@@ -332,15 +368,20 @@
   line-height: 14px;
   position: absolute;
   text-align: left;
-  top: 236px;
+  top: 238px;
   white-space: nowrap;
   width: auto;
 }
 
+.rushing a {
+  color: black;
+  text-decoration: none;
+}
+
 .rec-10{
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 77px;
   left: 650px;
   position: absolute;
@@ -349,9 +390,9 @@
 }
 
 .rec-16 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.25px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   border-radius: 8px;
   height: 16px;
   left: 234px;
@@ -361,9 +402,9 @@
 }
 
 .rec-11 {
-  background-color: var(--white);
+  background-color: #1e728e;
   border: 0.5px solid;
-  border-color: var(--dove-gray);
+  border-color: var(--eerie-black);
   height: 78px;
   left: 841px;
   position: absolute;
@@ -390,9 +431,8 @@
 }
 
 .rec-18 {
-  background-color: var(--white);
-  border-radius: 16px;
-  box-shadow: 0px 3px 6px #00000046;
+  background: #1e728f;
+  border-radius: 24px;
   height: 270px;
   left: 158px;
   position: absolute;
@@ -408,9 +448,15 @@
   line-height: 14px;
   position: absolute;
   text-align: left;
-  top: 187px;
+  top: 192px;
   white-space: nowrap;
   width: auto;
+}
+
+.passing a {
+  color:black;
+  text-decoration: none;
+  font-size: var(--font-size-s);
 }
 
 .receiving {
@@ -421,9 +467,15 @@
   line-height: 14px;
   position: absolute;
   text-align: left;
-  top: 285px;
+  top: 287px;
   white-space: nowrap;
   width: auto;
+}
+
+.receiving a {
+  color: black;
+  text-decoration: none;
+  font-size: var(--font-size-s)
 }
 
 .arrow-down {
@@ -436,23 +488,24 @@
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #657a97;
   font-family: var(--font-family-monserrat);
-  background-color: #2b2c2d;
+  background-color:#1e728e ;
   box-shadow: 0px 3px 6px #0000006a;
   height: 48px;
   left: 0px;
   position: absolute;
   top: 75px;
   width: 1920px;
+  border-color: var(--eerie-black);
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: #010101;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
 }
 
@@ -466,7 +519,7 @@
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -474,7 +527,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
+  background-color: #c29bb6;
 }
 
 .dropdown-content {
@@ -496,7 +549,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #c29bb6;
 }
 
 .show {
