@@ -126,131 +126,131 @@ fetch('https://nfl-team-stats.p.rapidapi.com/v1/nfl-stas/teams/win-stats/2022', 
     let text = localStorage.getItem("schedule");
     let win_obj = JSON.parse(text);
 
-    // team 0
+    // Texans
     document.getElementById("teamName_0").innerHTML = win_obj.teamWinStatistics[0].name;
     document.getElementById("wins_0").innerHTML = win_obj.teamWinStatistics[0].wins
     document.getElementById("losses_0").innerHTML = win_obj.teamWinStatistics[0].losses
-    // team 1
+    // Panthers
     document.getElementById("teamName_1").innerHTML = win_obj.teamWinStatistics[1].name;
     document.getElementById("wins_1").innerHTML = win_obj.teamWinStatistics[1].wins
     document.getElementById("losses_1").innerHTML = win_obj.teamWinStatistics[1].losses
-    // team 2
+    // Bears
     document.getElementById("teamName_2").innerHTML = win_obj.teamWinStatistics[2].name;
     document.getElementById("wins_2").innerHTML = win_obj.teamWinStatistics[2].wins
     document.getElementById("losses_2").innerHTML = win_obj.teamWinStatistics[2].losses
-    // team 3
+    // Browns
     document.getElementById("teamName_3").innerHTML = win_obj.teamWinStatistics[3].name;
     document.getElementById("wins_3").innerHTML = win_obj.teamWinStatistics[3].wins
     document.getElementById("losses_3").innerHTML = win_obj.teamWinStatistics[3].losses
-    //team 4
+    // Broncos
     document.getElementById("teamName_4").innerHTML = win_obj.teamWinStatistics[4].name;
     document.getElementById("wins_4").innerHTML = win_obj.teamWinStatistics[4].wins
     document.getElementById("losses_4").innerHTML = win_obj.teamWinStatistics[4].losses
-    // team 5
+    // Jaguars
     document.getElementById("teamName_5").innerHTML = win_obj.teamWinStatistics[5].name;
     document.getElementById("wins_5").innerHTML = win_obj.teamWinStatistics[5].wins
     document.getElementById("losses_5").innerHTML = win_obj.teamWinStatistics[5].losses
-    // team 6
+    // Raiders
     document.getElementById("teamName_6").innerHTML = win_obj.teamWinStatistics[6].name;
     document.getElementById("wins_6").innerHTML = win_obj.teamWinStatistics[6].wins
     document.getElementById("losses_6").innerHTML = win_obj.teamWinStatistics[6].losses
-    // team 7
+    // Rams
     document.getElementById("teamName_7").innerHTML = win_obj.teamWinStatistics[7].name;
     document.getElementById("wins_7").innerHTML = win_obj.teamWinStatistics[7].wins
     document.getElementById("losses_7").innerHTML = win_obj.teamWinStatistics[7].losses
-    // team 8
+    // Steelers
     document.getElementById("teamName_8").innerHTML = win_obj.teamWinStatistics[8].name;
     document.getElementById("wins_8").innerHTML = win_obj.teamWinStatistics[8].wins
     document.getElementById("losses_8").innerHTML = win_obj.teamWinStatistics[8].losses
-    // team 9
+    // Cardinals
     document.getElementById("teamName_9").innerHTML = win_obj.teamWinStatistics[9].name;
     document.getElementById("wins_9").innerHTML = win_obj.teamWinStatistics[9].wins
     document.getElementById("losses_9").innerHTML = win_obj.teamWinStatistics[9].losses
-    // team 10
+    // Lions
     document.getElementById("teamName_10").innerHTML = win_obj.teamWinStatistics[10].name;
     document.getElementById("wins_10").innerHTML = win_obj.teamWinStatistics[10].wins
     document.getElementById("losses_10").innerHTML = win_obj.teamWinStatistics[10].losses
-    // team 11
+    // Packers
     document.getElementById("teamName_11").innerHTML = win_obj.teamWinStatistics[11].name;
     document.getElementById("wins_11").innerHTML = win_obj.teamWinStatistics[11].wins
     document.getElementById("losses_11").innerHTML = win_obj.teamWinStatistics[11].losses
-    // team 12
+    // Colts
     document.getElementById("teamName_12").innerHTML = win_obj.teamWinStatistics[12].name;
     document.getElementById("wins_12").innerHTML = win_obj.teamWinStatistics[12].wins
     document.getElementById("losses_12").innerHTML = win_obj.teamWinStatistics[12].losses
-    // team 13
+    // Saints
     document.getElementById("teamName_13").innerHTML = win_obj.teamWinStatistics[13].name;
     document.getElementById("wins_13").innerHTML = win_obj.teamWinStatistics[13].wins
     document.getElementById("losses_13").innerHTML = win_obj.teamWinStatistics[13].losses
-    // team 14
+    // Falcons
     document.getElementById("teamName_14").innerHTML = win_obj.teamWinStatistics[14].name;
     document.getElementById("wins_14").innerHTML = win_obj.teamWinStatistics[14].wins
     document.getElementById("losses_14").innerHTML = win_obj.teamWinStatistics[14].losses
-    // team 15
+    // Chargers
     document.getElementById("teamName_15").innerHTML = win_obj.teamWinStatistics[15].name;
     document.getElementById("wins_15").innerHTML = win_obj.teamWinStatistics[15].wins
     document.getElementById("losses_15").innerHTML = win_obj.teamWinStatistics[15].losses
-    // team 16
+    // Buccaneers
     document.getElementById("teamName_16").innerHTML = win_obj.teamWinStatistics[16].name;
     document.getElementById("wins_16").innerHTML = win_obj.teamWinStatistics[16].wins
     document.getElementById("losses_16").innerHTML = win_obj.teamWinStatistics[16].losses
-    // team 17
+    // Bengals
     document.getElementById("teamName_17").innerHTML = win_obj.teamWinStatistics[17].name;
     document.getElementById("wins_17").innerHTML = win_obj.teamWinStatistics[17].wins
     document.getElementById("losses_17").innerHTML = win_obj.teamWinStatistics[17].losses
-    // team 18
+    // Patriots
     document.getElementById("teamName_18").innerHTML = win_obj.teamWinStatistics[18].name;
     document.getElementById("wins_18").innerHTML = win_obj.teamWinStatistics[18].wins
     document.getElementById("losses_18").innerHTML = win_obj.teamWinStatistics[18].losses
-    // team 19
+    // Jets
     document.getElementById("teamName_19").innerHTML = win_obj.teamWinStatistics[19].name;
     document.getElementById("wins_19").innerHTML = win_obj.teamWinStatistics[19].wins
     document.getElementById("losses_19").innerHTML = win_obj.teamWinStatistics[19].losses
-    // team 20
+    // 49ers
     document.getElementById("teamName_20").innerHTML = win_obj.teamWinStatistics[20].name;
     document.getElementById("wins_20").innerHTML = win_obj.teamWinStatistics[20].wins
     document.getElementById("losses_20").innerHTML = win_obj.teamWinStatistics[20].losses
-    // team 21
+    // Seahawks
     document.getElementById("teamName_21").innerHTML = win_obj.teamWinStatistics[21].name;
     document.getElementById("wins_21").innerHTML = win_obj.teamWinStatistics[21].wins
     document.getElementById("losses_21").innerHTML = win_obj.teamWinStatistics[21].losses
-    // team 22
+    // Commanders
     document.getElementById("teamName_22").innerHTML = win_obj.teamWinStatistics[22].name;
     document.getElementById("wins_22").innerHTML = win_obj.teamWinStatistics[22].wins
     document.getElementById("losses_22").innerHTML = win_obj.teamWinStatistics[22].losses
-    // team 23
+    // Ravens
     document.getElementById("teamName_23").innerHTML = win_obj.teamWinStatistics[23].name;
     document.getElementById("wins_23").innerHTML = win_obj.teamWinStatistics[23].wins
     document.getElementById("losses_23").innerHTML = win_obj.teamWinStatistics[23].losses
-    // team 24
+    // Bills
     document.getElementById("teamName_24").innerHTML = win_obj.teamWinStatistics[24].name;
     document.getElementById("wins_24").innerHTML = win_obj.teamWinStatistics[24].wins
     document.getElementById("losses_24").innerHTML = win_obj.teamWinStatistics[24].losses
-    // team 25
+    // Cowboys
     document.getElementById("teamName_25").innerHTML = win_obj.teamWinStatistics[25].name;
     document.getElementById("wins_25").innerHTML = win_obj.teamWinStatistics[25].wins
     document.getElementById("losses_25").innerHTML = win_obj.teamWinStatistics[25].losses
-    // team 26
+    // Dolphins
     document.getElementById("teamName_26").innerHTML = win_obj.teamWinStatistics[26].name;
     document.getElementById("wins_26").innerHTML = win_obj.teamWinStatistics[26].wins
     document.getElementById("losses_26").innerHTML = win_obj.teamWinStatistics[26].losses
-    // team 27
+    // Giants
     document.getElementById("teamName_27").innerHTML = win_obj.teamWinStatistics[27].name;
     document.getElementById("wins_27").innerHTML = win_obj.teamWinStatistics[27].wins
     document.getElementById("losses_27").innerHTML = win_obj.teamWinStatistics[27].losses
-    // team 28
+    // Titans
     document.getElementById("teamName_28").innerHTML = win_obj.teamWinStatistics[28].name;
     document.getElementById("wins_28").innerHTML = win_obj.teamWinStatistics[28].wins
     document.getElementById("losses_28").innerHTML = win_obj.teamWinStatistics[28].losses
-    // team 29
+    // Chiefs
     document.getElementById("teamName_29").innerHTML = win_obj.teamWinStatistics[29].name;
     document.getElementById("wins_29").innerHTML = win_obj.teamWinStatistics[29].wins
     document.getElementById("losses_29").innerHTML = win_obj.teamWinStatistics[29].losses
-    // team 30
+    // Vikings
     document.getElementById("teamName_30").innerHTML = win_obj.teamWinStatistics[30].name;
     document.getElementById("wins_30").innerHTML = win_obj.teamWinStatistics[30].wins
     document.getElementById("losses_30").innerHTML = win_obj.teamWinStatistics[30].losses
-    // team 31
+    // Eagles
     document.getElementById("teamName_31").innerHTML = win_obj.teamWinStatistics[31].name;
     document.getElementById("wins_31").innerHTML = win_obj.teamWinStatistics[31].wins
     document.getElementById("losses_31").innerHTML = win_obj.teamWinStatistics[31].losses
