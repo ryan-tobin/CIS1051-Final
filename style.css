@@ -15,10 +15,10 @@
   width: 1920px;
 }
 
-.monserrat-bold-1 {
+.monserrat-bold-1_0 {
   background-color: transparent;
   height: auto;
-  left: 622px;
+  left: 630px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -26,6 +26,89 @@
   top: 30px;
   white-space: nowrap;
   width: auto;
+}
+
+.monserrat-bold-1_1 {
+  background-color: transparent;
+  height: auto;
+  left: 820px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-1_2 {
+  background-color: transparent;
+  height: auto;
+  left: 1010px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-1_3 {
+  background-color: transparent;
+  height: auto;
+  left: 1205px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-1_4 {
+  background-color: transparent;
+  height: auto;
+  left: 1395px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-1_5 {
+  background-color: transparent;
+  height: auto;
+  left: 1586px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-1_6 {
+  background-color: transparent;
+  height: auto;
+  left: 1775px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rec-20 table,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
 .nfl-live-stats {
@@ -77,28 +160,214 @@
   font-style: normal;
 }
 
-.gameTime {
+.gameTime_0 {
   background-color: transparent;
-  color: var(--gravel);
+  color: #c29bb6;
   font-family: var(--font-family-monserrat);  
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left:467px;
+  left:465px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
   text-align: left;
-  top: 5px;
+  top: 10px;
   white-space: nowrap;
   width: auto;
 }
 
-.monserrat-bold-3 {
+.gameTime_1 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);  
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 660px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.gameTime_2 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);  
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 850px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.gameTime_3 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);  
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left:1040px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.gameTime_4 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);  
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1232px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.gameTime_5 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);  
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1425px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.gameTime_6 {
+  background-color: transparent;
+  color: #c29bb6;
+  font-family: var(--font-family-monserrat);  
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left:1615px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_0 {
   background-color: transparent;
   height: auto;
-  left: 478px;
+  left: 465px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_1 {
+  background-color: transparent;
+  height: auto;
+  left: 660px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_2 {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_3 {
+  background-color: transparent;
+  height: auto;
+  left: 1040px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_4 {
+  background-color: transparent;
+  height: auto;
+  left: 1232px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_5 {
+  background-color: transparent;
+  height: auto;
+  left: 1425px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 30px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-3_6 {
+  background-color: transparent;
+  height: auto;
+  left: 1615px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -200,10 +469,88 @@
   width: 191px;
 }
 
-.monserrat-bold-2 {
+.monserrat-bold-2_0 {
   background-color: transparent;
   height: auto;
-  left: 616.5px;
+  left: 630px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-2_1{
+  background-color: transparent;
+  height: auto;
+  left: 820px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-2_2 {
+  background-color: transparent;
+  height: auto;
+  left: 1010px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-2_3 {
+  background-color: transparent;
+  height: auto;
+  left: 1205px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-2_4 {
+  background-color: transparent;
+  height: auto;
+  left: 1395px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-2_5 {
+  background-color: transparent;
+  height: auto;
+  left: 1586px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-2_6 {
+  background-color: transparent;
+  height: auto;
+  left: 1775px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -370,10 +717,87 @@ body article{
   font-weight: 500;
 }
 
-.monserrat-bold-4 {
+.monserrat-bold-4_0 {
   background-color: transparent;
   height: auto;
-  left: 478px;
+  left: 465px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-4_1 {
+  background-color: transparent;
+  height: auto;
+  left: 660px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-4_2 {
+  background-color: transparent;
+  height: auto;
+  left: 850px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+.monserrat-bold-4_3 {
+  background-color: transparent;
+  height: auto;
+  left: 1040px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-4_4 {
+  background-color: transparent;
+  height: auto;
+  left: 1232px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-4_5 {
+  background-color: transparent;
+  height: auto;
+  left: 1425px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.monserrat-bold-4_6 {
+  background-color: transparent;
+  height: auto;
+  left: 1615px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -658,3 +1082,4 @@ body article{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
