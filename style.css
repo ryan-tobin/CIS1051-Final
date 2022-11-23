@@ -8,9 +8,9 @@
 
 .web-screen {
   background-color: #f2e8e6;
-  height: 1044px;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  height: 1644px;
+  overflow-x: auto;
+  overflow-y: auto;
   position: relative;
   width: 1920px;
 }
@@ -106,7 +106,9 @@
   width: auto;
 }
 
-.rec-20 table,th,td {
+.rec-20 table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -163,12 +165,12 @@
 .gameTime_0 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left:465px;
+  left: 465px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -181,7 +183,7 @@
 .gameTime_1 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
@@ -199,7 +201,7 @@
 .gameTime_2 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
@@ -217,12 +219,12 @@
 .gameTime_3 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left:1040px;
+  left: 1040px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -235,7 +237,7 @@
 .gameTime_4 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
@@ -253,7 +255,7 @@
 .gameTime_5 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
@@ -271,12 +273,12 @@
 .gameTime_6 {
   background-color: transparent;
   color: #c29bb6;
-  font-family: var(--font-family-monserrat);  
+  font-family: var(--font-family-monserrat);
   font-size: var(--font-size-xs);
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left:1615px;
+  left: 1615px;
   letter-spacing: 0px;
   line-height: 12px;
   position: absolute;
@@ -403,7 +405,7 @@
   height: 16px;
   left: 327px;
   position: absolute;
-  top:31px;
+  top: 31px;
   width: 120px;
 }
 
@@ -425,7 +427,7 @@
   height: 78px;
   left: 1414px;
   position: absolute;
-  top:-1px;
+  top: -1px;
   width: 191px;
 }
 
@@ -436,7 +438,7 @@
   height: 78px;
   left: 1223px;
   position: absolute;
-  top:-1px;
+  top: -1px;
   width: 191px;
 }
 
@@ -465,7 +467,7 @@
   height: 78px;
   left: 1605px;
   position: absolute;
-  top:-1px;
+  top: -1px;
   width: 191px;
 }
 
@@ -482,7 +484,7 @@
   width: auto;
 }
 
-.monserrat-bold-2_1{
+.monserrat-bold-2_1 {
   background-color: transparent;
   height: auto;
   left: 820px;
@@ -608,7 +610,6 @@
   width: 240px;
 }
 
-
 .top-yardage {
   background-color: transparent;
   color: black;
@@ -645,7 +646,7 @@
   text-decoration: none;
 }
 
-.sacks a:hover{
+.sacks a:hover {
   color: #1e728e;
   display: inline-block;
   line-height: 0em;
@@ -659,7 +660,7 @@
   height: 78px;
   left: 1032px;
   position: absolute;
-  top:-1px;
+  top: -1px;
   width: 191px;
 }
 
@@ -689,14 +690,14 @@
   text-decoration: none;
 }
 
-.interceptions a:hover{
+.interceptions a:hover {
   color: #1e728e;
   display: inline-block;
   line-height: 0em;
   padding-bottom: 0.5em;
 }
 
-body article{
+body article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 15px 0;
@@ -825,7 +826,7 @@ body article{
   height: 487px;
   left: 460px;
   position: absolute;
-  top:143px;
+  top: 144px;
   width: 1000px;
 }
 
@@ -836,7 +837,7 @@ body article{
   height: 200px;
   left: 460px;
   position: absolute;
-  top:675px;
+  top: 675px;
   width: 1345px;
 }
 
@@ -858,21 +859,21 @@ body article{
   text-decoration: none;
 }
 
-.rushing a:hover{
+.rushing a:hover {
   color: #1e728e;
   display: inline-block;
   line-height: 0em;
   padding-bottom: 0.5em;
 }
 
-.rec-10{
+.rec-10 {
   background-color: #1e728e;
   border: 0.5px solid;
   border-color: var(--eerie-black);
   height: 77px;
   left: 650px;
   position: absolute;
-  top:-1px;
+  top: -1px;
   width: 191px;
 }
 
@@ -884,7 +885,7 @@ body article{
   height: 16px;
   left: 234px;
   position: absolute;
-  top:31px;
+  top: 31px;
   width: 63px;
 }
 
@@ -895,7 +896,7 @@ body article{
   height: 78px;
   left: 841px;
   position: absolute;
-  top:-1px;
+  top: -1px;
   width: 191px;
 }
 
@@ -935,7 +936,7 @@ body article{
   height: 428px;
   left: 158px;
   position: absolute;
-  top:450px;
+  top: 450px;
   width: 256px;
 }
 
@@ -953,12 +954,12 @@ body article{
 }
 
 .passing a {
-  color:black;
+  color: black;
   text-decoration: none;
   font-size: var(--font-size-s);
 }
 
-.passing a:hover{
+.passing a:hover {
   color: #1e728e;
   display: inline-block;
   line-height: 0em;
@@ -981,10 +982,10 @@ body article{
 .receiving a {
   color: black;
   text-decoration: none;
-  font-size: var(--font-size-s)
+  font-size: var(--font-size-s);
 }
 
-.receiving a:hover{
+.receiving a:hover {
   color: #1e728e;
   display: inline-block;
   line-height: 0em;
@@ -1003,7 +1004,7 @@ body article{
 .navbar {
   background-color: #657a97;
   font-family: var(--font-family-monserrat);
-  background-color:#1e728e ;
+  background-color: #1e728e;
   box-shadow: 0px 3px 6px #0000006a;
   height: 48px;
   left: 0px;
@@ -1029,7 +1030,7 @@ body article{
 
 .dropdown .dropbtn {
   cursor: pointer;
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: black;
@@ -1039,7 +1040,9 @@ body article{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover,
+.dropdown:hover .dropbtn,
+.dropbtn:focus {
   background-color: #c29bb6;
 }
 
@@ -1048,7 +1051,7 @@ body article{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -1079,7 +1082,2420 @@ body article{
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
+.rec-21_2 {
+  background-color: #e0e0e0;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe;
+  height: 455px;
+  left: 460px;
+  position: absolute;
+  top: 174px;
+  width: 1295px;
+}
+
+.topPassing {
+  background-color: #e0e0e0;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe;
+  height: 470px;
+  left: 460px;
+  position: absolute;
+  top: 640px;
+  width: 1295px;
+}
+
+.topPassing_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 510px;
+  letter-spacing: 0px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.topRushing {
+  background-color: #e0e0e0;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe;
+  height: 470px;
+  left: 460px;
+  position: absolute;
+  top: 1125px;
+  width: 1295px;
+}
+
+.topRushing_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 510px;
+  letter-spacing: 0px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.line-7 {
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 25px;
+  width: 1285px;
+}
+
+.leaderboard {
+  border-radius: 24px;
+  background: #1e728e;
+  box-shadow: inset 20px 20px 60px #1a6179, inset -20px -20px 60px #2383a3;
+  height: 20px;
+  left: 780px;
+  position: absolute;
+  top: 165px;
+  width: 575px;
+}
+
+.yards {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 240px;
+  letter-spacing: 0px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 14px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.leaderboard_text {
+  background-color: transparent;
+  color: #e0e0e0;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 190px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 0.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.nfc_east {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 470px;
+  position: absolute;
+  top: 200px;
+  width: 300px;
+}
+
+.nfc_east_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 10px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.nfc_east_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 10px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.nfc_west {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe;
+  height: 200px;
+  left: 795px;
+  position: absolute;
+  top: 200px;
+  width: 300px;
+}
+
+.nfc_west_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe;
+  height: 200px;
+  left: 335px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.nfc_west_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  box-shadow: 10px 10px 15px #bebebe;
+  height: 200px;
+  left: 335px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.nfc_north {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 795px;
+  position: absolute;
+  top: 420px;
+  width: 300px;
+}
+
+.nfc_north_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 335px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.nfc_north_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 335px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.nfc_south {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 470px;
+  position: absolute;
+  top: 420px;
+  width: 300px;
+}
+
+.nfc_south_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 10px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.nfc_south_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 10px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.afc_east {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 1120px;
+  position: absolute;
+  top: 200px;
+  width: 300px;
+}
+
+.afc_east_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 660px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.afc_east_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 660px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.afc_west {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 1445px;
+  position: absolute;
+  top: 200px;
+  width: 300px;
+}
+
+.afc_west_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 985px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.afc_west_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 985px;
+  position: absolute;
+  top: 40px;
+  width: 300px;
+}
+
+.afc_north {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 1120px;
+  position: absolute;
+  top: 420px;
+  width: 300px;
+}
+
+.afc_north_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 660px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.afc_north_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 660px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.afc_south {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 1445px;
+  position: absolute;
+  top: 420px;
+  width: 300px;
+}
+
+.afc_south_two {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 985px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.afc_south_three {
+  background: #e0e0e0;
+  background: linear-gradient(145deg, #cacaca, #e0e0e0);
+  box-shadow: 20px 20px 60px #bebebe;
+  border-radius: 24px;
+  height: 200px;
+  left: 985px;
+  position: absolute;
+  top: 260px;
+  width: 300px;
+}
+
+.nfcSouth_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.line-6 {
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 19px;
+  width: 285px;
+}
+
+.line-6_1 {
+  height: 1px;
+  left: 5px;
+  position: absolute;
+  top: 19px;
+  width: 285px;
+}
+
+.NS_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NS_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NS_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NS_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.nfcEast_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NE_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NE_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NE_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NE_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.nfcWest_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NW_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NW_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NW_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NW_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.nfcNorth_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NN_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NN_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NN_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.NN_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.afcEast_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AE_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AE_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AE_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AE_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.afcNorth_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AN_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AN_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AN_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AN_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.afcWest_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AW_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AW_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AW_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AW_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.afcSouth_text {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AS_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AS_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AS_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.AS_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_0 {
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_1 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_1 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_2 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_2 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_3 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_3 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_4 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_4 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_5 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_5 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_6 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_6 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_7 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_7 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_8 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_8 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_9 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_9 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_10 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_10 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_11 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_11 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_12 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_12 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_13 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_13 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_14 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_14 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_15 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_15 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_16 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_16 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_17 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_17 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_18 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_18 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_19 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_19 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_20 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_20 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_21 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_21 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_22 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_22 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_23 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_23 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_24 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_24 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_25 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_25 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_26 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_26 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_27 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_27 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_28 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_28 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_29 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_29 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_30 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_30 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins_31 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 250px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses_31 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.wins {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 246px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.losses {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 275px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 7.5px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pYards_one {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 247px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 45px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pYards_two {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 247px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pYards_three {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 247px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 115px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pYards_four {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 247px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 150px;
+  white-space: nowrap;
+  width: auto;
+}
