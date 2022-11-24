@@ -8,12 +8,19 @@
 
 .web-screen {
   background-color: #f2e8e6;
-  height: 1644px;
-  overflow-x: auto;
-  overflow-y: auto;
+  height:auto;
+  overflow: none;
+  resize: both;
   position: relative;
   width: 1920px;
 }
+
+@media screen and (max-width: 1920px) {
+  .web-screen {
+    height: 1644px;
+  }
+}
+
 
 .monserrat-bold-1_0 {
   background-color: transparent;
@@ -406,40 +413,46 @@ td {
   left: 327px;
   position: absolute;
   top: 31px;
-  width: 120px;
+  width: auto;
 }
 
 .rec-3 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 77px;
   left: 459px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .rec-14 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 78px;
   left: 1414px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .rec-13 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 78px;
   left: 1223px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .nfl {
@@ -461,14 +474,16 @@ td {
 }
 
 .rec-15 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 78px;
   left: 1605px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .monserrat-bold-2_0 {
@@ -568,7 +583,7 @@ td {
   left: 164px;
   position: absolute;
   top: 311px;
-  width: 240px;
+  width: 15rem;
   border-style: none none dotted;
 }
 
@@ -578,7 +593,7 @@ td {
   left: 164px;
   position: absolute;
   top: 212px;
-  width: 240px;
+  width: 15rem;
   border-style: none none dotted;
 }
 
@@ -588,7 +603,7 @@ td {
   left: 164px;
   position: absolute;
   top: 360px;
-  width: 240px;
+  width: 15rem;
   border-style: none none dotted;
 }
 
@@ -598,7 +613,7 @@ td {
   left: 164px;
   position: absolute;
   top: 262px;
-  width: 240px;
+  width: 15rem;
   border-style: none none dotted;
 }
 
@@ -607,7 +622,7 @@ td {
   left: 164px;
   position: absolute;
   top: 168px;
-  width: 240px;
+  width: 15rem;
 }
 
 .top-yardage {
@@ -654,14 +669,16 @@ td {
 }
 
 .rec-12 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 78px;
   left: 1032px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .rec-1 {
@@ -728,7 +745,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 
 .monserrat-bold-4_1 {
@@ -741,7 +758,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 
 .monserrat-bold-4_2 {
@@ -754,7 +771,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 .monserrat-bold-4_3 {
   background-color: transparent;
@@ -766,7 +783,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 
 .monserrat-bold-4_4 {
@@ -779,7 +796,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 
 .monserrat-bold-4_5 {
@@ -792,7 +809,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 
 .monserrat-bold-4_6 {
@@ -805,7 +822,7 @@ body article {
   text-align: left;
   top: 54px;
   white-space: nowrap;
-  width: auto;
+  width: 10rem;
 }
 
 .rec-20 {
@@ -816,7 +833,7 @@ body article {
   left: 1545px;
   position: absolute;
   top: 143px;
-  width: 256px;
+  width: 16rem;
 }
 
 .rec-21 {
@@ -827,7 +844,7 @@ body article {
   left: 460px;
   position: absolute;
   top: 144px;
-  width: 1000px;
+  width: 62.5rem;
 }
 
 .rec-22 {
@@ -838,7 +855,7 @@ body article {
   left: 460px;
   position: absolute;
   top: 675px;
-  width: 1345px;
+  width: 83.86rem;
 }
 
 .rushing {
@@ -851,7 +868,7 @@ body article {
   text-align: left;
   top: 238px;
   white-space: nowrap;
-  width: auto;
+  width: 1rem;
 }
 
 .rushing a {
@@ -867,14 +884,16 @@ body article {
 }
 
 .rec-10 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 77px;
   left: 650px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .rec-16 {
@@ -886,18 +905,20 @@ body article {
   left: 234px;
   position: absolute;
   top: 31px;
-  width: 63px;
+  width: 12rem;
 }
 
 .rec-11 {
-  background-color: #1e728e;
-  border: 0.5px solid;
-  border-color: var(--eerie-black);
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 78px;
   left: 841px;
   position: absolute;
   top: -1px;
-  width: 191px;
+  width: 12rem;
 }
 
 .live-statistics {
@@ -926,7 +947,7 @@ body article {
   left: 158px;
   position: absolute;
   top: 143px;
-  width: 256px;
+  width: 16rem;
 }
 
 .rec-23 {
@@ -937,7 +958,7 @@ body article {
   left: 158px;
   position: absolute;
   top: 450px;
-  width: 256px;
+  width: 16rem;
 }
 
 .passing {
@@ -998,19 +1019,22 @@ body article {
   left: 275px;
   position: absolute;
   top: 32.5px;
-  width: 4px;
+  width: 0.25rem;
 }
 
 .navbar {
-  background-color: #657a97;
   font-family: var(--font-family-monserrat);
-  background-color: #1e728e;
+  background: rgba(30,114,142,0.9);
+  border-radius: 0px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   box-shadow: 0px 3px 6px #0000006a;
   height: 48px;
   left: 0px;
   position: absolute;
   top: 75px;
-  width: 1920px;
+  width: 100%;
   border-color: var(--eerie-black);
 }
 
@@ -1076,8 +1100,8 @@ body article {
   border: 16px solid #f3f3f3;
   border-top: 16px solid #3498db;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 7.5rem;
+  height: 7.5rem;
   animation: spin 2s linear infinite;
 }
 
@@ -1091,25 +1115,29 @@ body article {
 }
 
 .rec-21_2 {
-  background-color: #e0e0e0;
+  background: rgba(255,255,255,0.14);
   border-radius: 24px;
-  box-shadow: 10px 10px 15px #bebebe;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 455px;
   left: 460px;
   position: absolute;
   top: 174px;
-  width: 1295px;
+  width: 80.938rem;
 }
 
 .topPassing {
-  background-color: #e0e0e0;
+  background: rgba(255,255,255,0.14);
   border-radius: 24px;
-  box-shadow: 10px 10px 15px #bebebe;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 470px;
   left: 460px;
   position: absolute;
   top: 640px;
-  width: 1295px;
+  width: 80.938rem;
 }
 
 .topPassing_text {
@@ -1127,18 +1155,20 @@ body article {
   text-align: left;
   top: 15px;
   white-space: nowrap;
-  width: auto;
+  width: 100%;
 }
 
 .topRushing {
-  background-color: #e0e0e0;
+  background: rgba(255,255,255,0.14);
   border-radius: 24px;
-  box-shadow: 10px 10px 15px #bebebe;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
   height: 470px;
   left: 460px;
   position: absolute;
   top: 1125px;
-  width: 1295px;
+  width: 80.938rem;
 }
 
 .topRushing_text {
@@ -1164,18 +1194,20 @@ body article {
   left: 5px;
   position: absolute;
   top: 25px;
-  width: 1285px;
+  width: 80.313rem;
 }
 
 .leaderboard {
+  background: rgba(194,155,182,0.69);
   border-radius: 24px;
-  background: #1e728e;
-  box-shadow: inset 20px 20px 60px #1a6179, inset -20px -20px 60px #2383a3;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px);
   height: 20px;
   left: 780px;
   position: absolute;
   top: 165px;
-  width: 575px;
+  width: 35.938rem;
 }
 
 .yards {
@@ -1223,7 +1255,7 @@ body article {
   left: 470px;
   position: absolute;
   top: 200px;
-  width: 300px;
+  width: 18.75rem;
 }
 
 .nfc_east_two {
@@ -3499,3 +3531,4 @@ body article {
   white-space: nowrap;
   width: auto;
 }
+

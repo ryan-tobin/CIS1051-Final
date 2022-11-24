@@ -7,13 +7,15 @@
   outline: none;
 }
 
+
 .screen * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  width: auto;
 }
 
 .screen div {
-  -webkit-text-size-adjust: none; 
+  -webkit-text-size-adjust: auto; 
 }
 
 .screen a {

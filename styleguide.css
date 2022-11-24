@@ -9,12 +9,12 @@
   --quick-silver: rgba(165,166,167,1);
   --red : rgba(220,53,69,1);
 
-  --font-size-xxs: 8px;
-  --font-size-xs: 12px;
-  --font-size-s: 14px;
-  --font-size-m: 16px;
-  --font-size-l: 18px;
-  --font-size-xl: 22px;
+  --font-size-xxs: 0.5rem;
+  --font-size-xs: 0.75rem;
+  --font-size-s: 0.875rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.125rem;
+  --font-size-xl: 1.375rem;
 
   --font-family-monserrat: Montserrat;
 }
