@@ -851,3 +851,1272 @@ fetch(
     document.getElementById("5").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[31].name;
   });
+
+
+const playerStatsOptions = {
+  method : 'GET',
+  headers : {
+    'X-RapidAPI-Key' : '35ae043db2msh31e6f118f6fc8f9p11ee0fjsn977b28636f2e',
+    'X-RapidAPI-Host' : 'api-american-football.p.rapidapi.com'
+  }
+};
+  
+// ! Derek Carr Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player0").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating0").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts0").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards0").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns0").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles0").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Kyler Murray Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=754",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player1").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating1").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts1").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards1").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns1").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles1").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Marcus Mariota Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=527",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player2").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating2").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts2").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards2").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns2").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles2").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Josh Allen Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1414",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player3").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating3").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts3").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards3").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns3").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles3").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Sam Darnold Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1340",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player4").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating4").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts4").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards4").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns4").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles4").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Justin Fields Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1120",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player5").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating5").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts5").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards5").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns5").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles5").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Joe Burrow Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=683",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player6").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating6").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts6").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards6").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns6").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles6").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Dak Prescott Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=2076",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player7").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating7").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts7").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards7").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns7").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles7").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Russell Wilson Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=2000",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player8").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating8").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts8").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards8").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns8").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles8").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Jared Goff Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=449",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player9").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating9").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts9").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards9").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns9").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles9").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Aaron Roddgers Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1050",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player10").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating10").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts10").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards10").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns10").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles10").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Davis Mills Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1853",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player11").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating11").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts11").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards11").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns11").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles11").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Matt Ryan Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1489",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player12").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating12").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts12").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards12").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns12").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles12").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Trevor Lawrence Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=69",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player13").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating13").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts13").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards13").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns13").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles13").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Patrick Mahomes Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1197",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player14").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating14").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts14").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards14").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns14").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles14").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Justin Herbert Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=2151",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player15").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating15").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts15").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards15").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns15").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles15").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Tua Tagovailoa Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1782",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player16").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating16").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts16").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards16").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns16").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles16").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Kirk Cousins Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=2308",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player17").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating17").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts17").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards17").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns17").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles17").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Matthew Stafford Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=2227",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player18").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating18").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts18").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards18").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns18").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles18").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Mac Jones Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=141",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player19").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating19").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts19").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards19").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns19").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles19").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Kenny Pickett Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1562",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player20").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating20").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts20").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards20").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns20").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles20").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Jimmy G Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=977",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player21").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating21").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts21").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards21").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns21").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles21").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Geno Smith Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1635",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player22").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating22").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts22").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards22").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns22").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles22").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Jalen Hurts Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=830",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player23").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating23").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts23").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards23").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns23").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles23").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Tom Brady Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1704",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player24").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating24").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts24").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards24").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns24").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles24").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Ryan Tannehill Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=367",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player25").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating25").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts25").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards25").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns25").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles25").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Taylor Heinicke Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1259",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player26").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating26").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts26").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards26").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns26").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles26").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Zach Wilson Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=905",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player27").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating27").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts27").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards27").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns27").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles27").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Daniel Jones Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=216",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player28").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating28").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts28").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards28").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns28").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles28").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Andy Dalton Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=1923",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player29").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating29").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts29").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards29").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns29").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles29").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});

@@ -7,20 +7,15 @@
 }
 
 .web-screen {
-  background-color: #f2e8e6;
-  height:auto;
-  overflow: none;
-  resize: both;
+  background-color: #ffffff;
+  height: 100vh;
+  overflow-x:hidden;
+  overflow-y: auto;
   position: relative;
   width: 1920px;
+  margin-bottom: 20px;
+  margin-right: 0px;
 }
-
-@media screen and (max-width: 1920px) {
-  .web-screen {
-    height: 1644px;
-  }
-}
-
 
 .monserrat-bold-1_0 {
   background-color: transparent;
@@ -111,13 +106,6 @@
   top: 30px;
   white-space: nowrap;
   width: auto;
-}
-
-.rec-20 table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
 }
 
 .nfl-live-stats {
@@ -714,21 +702,6 @@ td {
   padding-bottom: 0.5em;
 }
 
-body article {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 15px 0;
-  border-bottom: 1px solid black;
-  width: 75vw;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50vh;
-  font-family: var(--font-family-monserrat);
-  font-size: var(--font-size-1);
-  font-style: normal;
-  font-weight: 300;
-}
-
 .message {
   text-align: center;
   font-family: var(--font-family-monserrat);
@@ -825,17 +798,6 @@ body article {
   width: 10rem;
 }
 
-.rec-20 {
-  background-color: #e0e0e0;
-  border-radius: 24px;
-  box-shadow: 10px 10px 15px #bebebe;
-  height: 487px;
-  left: 1545px;
-  position: absolute;
-  top: 143px;
-  width: 16rem;
-}
-
 .rec-21 {
   background-color: #e0e0e0;
   border-radius: 24px;
@@ -844,7 +806,7 @@ body article {
   left: 460px;
   position: absolute;
   top: 144px;
-  width: 62.5rem;
+  width: 74.5rem;
 }
 
 .rec-22 {
@@ -2434,6 +2396,7 @@ body article {
   width: auto;
 }
 
+
 .losses_4 {
   background-color: transparent;
   color: black;
@@ -3532,3 +3495,922 @@ body article {
   width: auto;
 }
 
+.p0 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 20px;
+  position: absolute;
+  top: 150px;
+  width: 20.938rem;
+}
+/* ! Derek Carr */
+.playerImage0 {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  margin: 0 auto; 
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -30px;
+  right: 0;
+  bottom: 0;
+}
+
+.player0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 110px;
+  letter-spacing: 0px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pAttempts0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.passingAttempts0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 50px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 145px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pCompletions0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 200px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.passingCompletions0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 230px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 145px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pYards0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 170px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.passingYards0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 45px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 195px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pTouchdowns0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 170px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 170px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.passingTouchdowns0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 235px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 195px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pCompPercentage0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 225px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.completionPercentage0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 45px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.yPerAttempt0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 180px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 225px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.yardsPerAttempt0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 233px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pInterceptions0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.interceptions0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 55px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 305px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pQBR0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 180px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.quaterbackRating0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 227px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 305px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rAttempts0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 340px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rushingAttempts0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 55px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 365px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rYards0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 200px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 340px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rushingYards0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 233px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 365px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rTouchdowns0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 400px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.rushingTouchdowns0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 55px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 425px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pFumbles0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 215px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 400px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.fumbles0 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 240px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 425px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.p1 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 400px;
+  position: absolute;
+  top: 150px;
+  width: 20.938rem;
+}
+
+.playerImage1 {
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  margin: 0 auto; 
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  right: 0;
+  bottom: 0;
+}
+
+.player2 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 100px;
+  letter-spacing: 0px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.player3 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 115px;
+  letter-spacing: 0px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.player4 {
+  background-color: transparent;
+  color: black;
+  font-family: var(--font-family-monserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 105px;
+  letter-spacing: 0px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.p2  {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 780px;
+  position: absolute;
+  top: 150px;
+  width: 20.938rem;
+}
+
+.p3 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1160px;
+  position: absolute;
+  top: 150px;
+  width: 20.938rem;
+}
+
+.p4 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1540px;
+  position: absolute;
+  top: 150px;
+  width: 20.938rem;
+}
+
+.p5 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 20px;
+  position: absolute;
+  top: 650px;
+  width: 20.938rem;
+}
+
+.p6 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 400px;
+  position: absolute;
+  top: 650px;
+  width: 20.938rem;
+}
+
+.p7 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 780px;
+  position: absolute;
+  top: 650px;
+  width: 20.938rem;
+}
+
+.p8 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1160px;
+  position: absolute;
+  top: 650px;
+  width: 20.938rem;
+}
+
+.p9 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1540px;
+  position: absolute;
+  top: 650px;
+  width: 20.938rem;
+}
+
+.p10 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 20px;
+  position: absolute;
+  top: 1150px;
+  width: 20.938rem;
+}
+
+.p11 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 400px;
+  position: absolute;
+  top: 1150px;
+  width: 20.938rem;
+}
+
+.p12 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 780px;
+  position: absolute;
+  top: 1150px;
+  width: 20.938rem;
+}
+
+.p13 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1160px;
+  position: absolute;
+  top: 1150px;
+  width: 20.938rem;
+}
+
+.p14 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1540px;
+  position: absolute;
+  top: 1150px;
+  width: 20.938rem;
+}
+
+.p15 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 20px;
+  position: absolute;
+  top: 1650px;
+  width: 20.938rem;
+}
+
+.p16 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 400px;
+  position: absolute;
+  top: 1650px;
+  width: 20.938rem;
+}
+
+.p17 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 780px;
+  position: absolute;
+  top: 1650px;
+  width: 20.938rem;
+}
+
+.p18 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1160px;
+  position: absolute;
+  top: 1650px;
+  width: 20.938rem;
+}
+
+.p19 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1540px;
+  position: absolute;
+  top: 1650px;
+  width: 20.938rem;
+}
+
+.p20 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 20px;
+  position: absolute;
+  top: 2150px;
+  width: 20.938rem;
+}
+
+.p21 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 400px;
+  position: absolute;
+  top: 2150px;
+  width: 20.938rem;
+}
+
+.p22 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 780px;
+  position: absolute;
+  top: 2150px;
+  width: 20.938rem;
+}
+
+.p23 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1160px;
+  position: absolute;
+  top: 2150px;
+  width: 20.938rem;
+}
+
+.p24 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1540px;
+  position: absolute;
+  top: 2150px;
+  width: 20.938rem;
+}
+
+.p25 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 20px;
+  position: absolute;
+  top: 2650px;
+  width: 20.938rem;
+}
+
+.p26 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 400px;
+  position: absolute;
+  top: 2650px;
+  width: 20.938rem;
+}
+
+.p27 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 780px;
+  position: absolute;
+  top: 2650px;
+  width: 20.938rem;
+}
+
+.p28 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1160px;
+  position: absolute;
+  top: 2650px;
+  width: 20.938rem;
+}
+
+.p29 {
+  background: rgba(255,255,255,0.14);
+  border-radius: 24px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  height: 470px;
+  left: 1540px;
+  position: absolute;
+  top: 2650px;
+  width: 20.938rem;
+}
