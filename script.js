@@ -39,10 +39,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_0").innerHTML = obj.data[0].shortName;
     if (obj.data[0].homeTeam.score > obj.data[0].awayTeam.score) {
       document.getElementById("homeTeamRecord_0").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_0").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
     // second box
     document.getElementById("homeTeam_1").innerHTML = obj.data[1].homeTeam.name;
@@ -54,10 +54,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_1").innerHTML = obj.data[1].shortName;
     if (obj.data[1].homeTeam.score > obj.data[1].awayTeam.score) {
       document.getElementById("homeTeamRecord_1").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_1").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
     // third box
     document.getElementById("homeTeam_2").innerHTML = obj.data[2].homeTeam.name;
@@ -69,10 +69,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_2").innerHTML = obj.data[2].shortName;
     if (obj.data[2].homeTeam.score > obj.data[2].awayTeam.score) {
       document.getElementById("homeTeamRecord_2").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_2").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
     // fourth box
     document.getElementById("homeTeam_3").innerHTML = obj.data[3].homeTeam.name;
@@ -84,10 +84,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_3").innerHTML = obj.data[3].shortName;
     if (obj.data[3].homeTeam.score > obj.data[3].awayTeam.score) {
       document.getElementById("homeTeamRecord_3").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_3").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
     // fifth box
     document.getElementById("homeTeam_4").innerHTML = obj.data[4].homeTeam.name;
@@ -99,10 +99,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_4").innerHTML = obj.data[4].shortName;
     if (obj.data[4].homeTeam.score > obj.data[4].awayTeam.score) {
       document.getElementById("homeTeamRecord_4").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_4").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
     // sixth box
     document.getElementById("homeTeam_5").innerHTML = obj.data[5].homeTeam.name;
@@ -114,10 +114,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_5").innerHTML = obj.data[5].shortName;
     if (obj.data[5].homeTeam.score > obj.data[5].awayTeam.score) {
       document.getElementById("homeTeamRecord_5").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_5").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
     // seventh box
     document.getElementById("homeTeam_6").innerHTML = obj.data[6].homeTeam.name;
@@ -129,10 +129,10 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     document.getElementById("shortName_6").innerHTML = obj.data[6].shortName;
     if (obj.data[6].homeTeam.score > obj.data[6].awayTeam.score) {
       document.getElementById("homeTeamRecord_6").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     } else {
       document.getElementById("awayTeamRecord_6").style.color = color =
-        "#c29bb6";
+        "#ff3b3f";
     }
   })
   .catch((error) => console.log(error));
@@ -848,10 +848,17 @@ fetch(
     document.getElementById("r_name_23").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[30].name;
     // team name 31
-    document.getElementById("5").innerHTML =
+    document.getElementById("r_name_5").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[31].name;
   });
 
+const passOptions = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': '35ae043db2msh31e6f118f6fc8f9p11ee0fjsn977b28636f2e',
+    'X-RapidAPI-Host': 'api-american-football.p.rapidapi.com'
+  }
+};
 
 const playerStatsOptions = {
   method : 'GET',
@@ -2118,5 +2125,89 @@ fetch(
     document.getElementById("rushingTouchdowns29").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
 
     document.getElementById("fumbles29").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Lamar Jackson Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=292",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player30").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("i`nterceptions30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts30").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards30").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns30").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles30").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
+
+});
+
+// ! Jacoby Brissett Stats
+fetch(
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=605",
+  playerStatsOptions
+)
+  .then((response) => response.json())
+  .then((player0Stats) => {
+    const p0Stats = player0Stats;
+    const playerZeroStats = JSON.stringify(p0Stats);
+    localStorage.setItem("p0Stats", playerZeroStats);
+  
+    let text = localStorage.getItem("p0Stats");
+    let pzeroStats = JSON.parse(text);
+      
+    document.getElementById("player31").innerHTML = pzeroStats.response[0].player.name;
+
+    document.getElementById("passingAttempts31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[0].value;
+
+    document.getElementById("passingCompletions31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[1].value;
+
+    document.getElementById("passingYards31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[3].value;
+
+    document.getElementById("passingTouchdowns31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[7].value;
+
+    document.getElementById("completionPercentage31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[2].value + "&#37";
+
+    document.getElementById("yardsPerAttempt31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
+
+    document.getElementById("interceptions31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+
+    document.getElementById("quaterbackRating31").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
+
+    document.getElementById("rushingAttempts31").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[0].value;
+
+    document.getElementById("rushingYards31").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[1].value;
+
+    document.getElementById("rushingTouchdowns31").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[5].value;
+
+    document.getElementById("fumbles31").innerHTML = pzeroStats.response[0].teams[0].groups[1].statistics[7].value;
 
 });

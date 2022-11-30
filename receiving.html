@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Teams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="rushScript.js"></script>
+</head>
+<body>
+    <div class="web-screen">
+      <div class="rec-1"></div>
+      <div class="rec-3"></div>
+      <div class="rec-10"></div>
+      <div class="rec-11"></div>
+      <div class="rec-12"></div>
+      <div class="rec-13"></div>
+      <div class="rec-14"></div>
+      <div class="rec-15"></div>
+      <div class="rec-9"></div>
+      <div class="nfl-live-stats">
+        <span class="span0">NFL</span>
+        <span class="span1">Live Statistics</span>
+      </div>
+      <!-- Start Box's -->
+      <!-- 1st Box -->
+      <div class="gameTime_0">
+        <p id="shortName_0"></p>
+      </div>
+      <div class="monserrat-bold-1_0 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_0"></p>
+      </div>
+      <div class="monserrat-bold-2_0 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_0"></p>
+      </div>
+      <div class="monserrat-bold-3_0 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_0"></p>
+      </div>
+      <div class="monserrat-bold-4_0 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_0"></p>
+      </div>
+      <!-- 2nd Box -->
+      <div class="gameTime_1">
+        <p id="shortName_1"></p>
+      </div>
+      <div class="monserrat-bold-1_1 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_1"></p>
+      </div>
+      <div class="monserrat-bold-2_1 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_1"></p>
+      </div>
+      <div class="monserrat-bold-3_1 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_1"></p>
+      </div>
+      <div class="monserrat-bold-4_1 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_1"></p>
+      </div>
+      <!-- 3rd Box -->
+      <div class="gameTime_2">
+        <p id="shortName_2"></p>
+      </div>
+      <div class="monserrat-bold-1_2 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_2"></p>
+      </div>
+      <div class="monserrat-bold-2_2 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_2"></p>
+      </div>
+      <div class="monserrat-bold-3_2 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_2"></p>
+      </div>
+      <div class="monserrat-bold-4_2 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_2"></p>
+      </div>
+      <!-- 4th Box -->
+      <div class="gameTime_3">
+        <p id="shortName_3"></p>
+      </div>
+      <div class="monserrat-bold-1_3 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_3"></p>
+      </div>
+      <div class="monserrat-bold-2_3 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_3"></p>
+      </div>
+      <div class="monserrat-bold-3_3 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_3"></p>
+      </div>
+      <div class="monserrat-bold-4_3 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_3"></p>
+      </div>
+      <!-- 5th Box -->
+      <div class="gameTime_4">
+        <p id="shortName_4"></p>
+        </div>
+        <div class="monserrat-bold-1_4 montserrat-bold-quick-silver-12px">
+          <p id="homeTeamRecord_4"></p>
+        </div>
+        <div class="monserrat-bold-2_4 montserrat-bold-quick-silver-12px">
+          <p id="awayTeamRecord_4"></p>
+        </div>
+        <div class="monserrat-bold-3_4 montserrat-bold-eerie-black-12px">
+          <p id="homeTeam_4"></p>
+        </div>
+        <div class="monserrat-bold-4_4 montserrat-bold-eerie-black-12px">
+          <p id="awayTeam_4"></p>
+        </div>
+        <!-- 6th Box -->
+        <div class="gameTime_5">
+          <p id="shortName_5"></p>
+        </div>
+        <div class="monserrat-bold-1_5 montserrat-bold-quick-silver-12px">
+          <p id="homeTeamRecord_5"></p>
+        </div>
+        <div class="monserrat-bold-2_5 montserrat-bold-quick-silver-12px">
+          <p id="awayTeamRecord_5"></p>
+        </div>
+        <div class="monserrat-bold-3_5 montserrat-bold-eerie-black-12px">
+          <p id="homeTeam_5"></p>
+        </div>
+        <div class="monserrat-bold-4_5 montserrat-bold-eerie-black-12px">
+          <p id="awayTeam_5"></p>
+        </div>
+        <!-- 7th Box -->
+        <div class="gameTime_6">
+          <p id="shortName_6"></p>
+        </div>
+        <div class="monserrat-bold-1_6 montserrat-bold-quick-silver-12px">
+          <p id="homeTeamRecord_6"></p>
+        </div>
+        <div class="monserrat-bold-2_6 montserrat-bold-quick-silver-12px">
+          <p id="awayTeamRecord_6"></p>
+        </div>
+        <div class="monserrat-bold-3_6 montserrat-bold-eerie-black-12px">
+          <p id="homeTeam_6"></p>
+        </div>
+        <div class="monserrat-bold-4_6 montserrat-bold-eerie-black-12px">
+          <p id="awayTeam_6"></p>
+        </div>
+        <!-- End Box's -->
+        <div class="specific-header-1">
+          <span class="span2">Receiving <iconify-icon inline icon="fa6-solid:hands-holding"></iconify-icon></span>
+        </div>
+<!-- TODO: QB Leaderboard -->
+        <div class="p0_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/10.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/690.png" class="playerImage0" alt="Latavius Murray">
+            <p id="chase" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingChase" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Recieving Yards</h6>
+            <p id="yardsChase" class="passingCompletions0"></p>
+            <h6 class="pYards0">Recieving Touchdowns</h6>
+            <p id="tdsChase" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsChase" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/691.png" class="playerImage2" alt="Marlon Mack">
+            <p id="higgins" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingHiggins" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsHiggins" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsHiggins" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsHiggins" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/689.png" class="playerImage3" alt="Marlon Mack">
+            <p id="boyd" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingBoyd" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsBoyd" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsBoyd" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsBoyd" class="fumbles0"></p>
+            </div>
+        </div>
+        <div class="p1_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/24.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1716.png" class="playerImage0" alt="Latavius Murray">
+            <p id="evans" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingEvans" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsEvans" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsEvans" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsEvans" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1719.png" class="playerImage2" alt="Marlon Mack">
+            <p id="godwin" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingGodwin" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsGodwin" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsGodwin" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsGodwin" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1717.png" class="playerImage3" alt="Marlon Mack">
+            <p id="gage" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingGage" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsGage" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsGage" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsGage" class="fumbles0"></p>
+        </div>
+        <div class="p2_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/25.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1792.png" class="playerImage0" alt="Latavius Murray">
+            <p id="hill" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingHill" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsHill" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsHill" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsHill" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1795.png" class="playerImage2" alt="Marlon Mack">
+            <p id="waddle" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingWaddle" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsWaddle" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsWaddle" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsWaddle" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1799.png" class="playerImage3" alt="Marlon Mack">
+            <p id="gesicki" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingGesicki" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsGesicki" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsGesicki" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsGesicki" class="fumbles0"></p>
+        </div>
+        <div class="p3_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/12.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/838.png" class="playerImage0" alt="Latavius Murray">
+            <p id="brown" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingBrown" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsBrown" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsBrown" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsBrown" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/842.png" class="playerImage2" alt="Marlon Mack">
+            <p id="smith" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingSmith" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsSmith" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsSmith" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsSmith" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/846.png" class="playerImage3" alt="Marlon Mack">
+            <p id="goedert" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingGoedert" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsGoedert" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsGoedert" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsGoedert" class="fumbles0"></p>
+        </div>
+        <div class="p4_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/1.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/10.png" class="playerImage0" alt="Latavius Murray">
+            <p id="adams" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingAdams" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsAdams" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsAdams" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsAdams" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/14.png" class="playerImage2" alt="Marlon Mack">
+            <p id="renfrow" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingRenfrow" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsRenfrow" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsRenfrow" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsRenfrow" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/12.png" class="playerImage3" alt="Marlon Mack">
+            <p id="hollins" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingHollins" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsHollins" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsHollins" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsHollins" class="fumbles0"></p>
+        </div>
+        <div class="p5_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/14.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/991.png" class="playerImage0" alt="Latavius Murray">
+            <p id="samuel" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingSamuel" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsSamuel" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsSamuel" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsSamuel" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/987.png" class="playerImage2" alt="Marlon Mack">
+            <p id="aiyuk" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingAiyuk" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsAiyuk" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsAiyuk" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsAiyuk" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/996.png" class="playerImage3" alt="Marlon Mack">
+            <p id="kittle" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingKittle" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsKittle" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsKittle" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsKittle" class="fumbles0"></p>
+        </div>
+        <div class="p6_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/31.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/2239.png" class="playerImage0" alt="Latavius Murray">
+            <p id="kupp" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingKupp" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsKupp" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsKupp" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsKupp" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2242.png" class="playerImage2" alt="Marlon Mack">
+            <p id="robinson" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingRobinson" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsRobinson" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsRobinson" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsRobinson" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2237.png" class="playerImage3" alt="Marlon Mack">
+            <p id="vJefferson" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingvJefferson" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsvJefferson" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsvJefferson" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsvJefferson" class="fumbles0"></p>
+        </div>
+        <div class="p7_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/20.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1426.png" class="playerImage0" alt="Latavius Murray">
+            <p id="diggs" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingDiggs" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsDiggs" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsDiggs" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsDiggs" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1425.png" class="playerImage2" alt="Marlon Mack">
+            <p id="davis" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingDavis" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsDavis" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsDavis" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsDavis" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1434.png" class="playerImage3" alt="Marlon Mack">
+            <p id="knox" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingKnox" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsKnox" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsKnox" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsKnox" class="fumbles0"></p>
+        </div>
+        <div class="p8_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/30.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/2159.png" class="playerImage0" alt="Latavius Murray">
+            <p id="kAllen" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingkAllen" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardskAllen" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdskAllen" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionskAllen" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2166.png" class="playerImage2" alt="Marlon Mack">
+            <p id="williams" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingWilliams" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsWilliams" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsWilliams" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsWilliams" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2164.png" class="playerImage3" alt="Marlon Mack">
+            <p id="palmer" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingPalmer" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsPalmer" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsPalmer" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsPalmer" class="fumbles0"></p>
+        </div>
+        <div class="p9_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/28.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/2013.png" class="playerImage0" alt="Latavius Murray">
+            <p id="sutton" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingSutton" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsSutton" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsSutton" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsSutton" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2007.png" class="playerImage2" alt="Marlon Mack">
+            <p id="hamler" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingHamler" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsHamler" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsHamler" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsHamler" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2009.png" class="playerImage3" alt="Marlon Mack">
+            <p id="jeudy" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingJeudy" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsJeudy" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsJeudy" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsJeudy" class="fumbles0"></p>
+        </div>
+        <div class="p10_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/22.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1574.png" class="playerImage0" alt="Latavius Murray">
+            <p id="johnson" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingJohnson" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsJohnson" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsJohnson" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsJohnson" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1577.png" class="playerImage2" alt="Marlon Mack">
+            <p id="pickens" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingPickens" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsPickens" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsPickens" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsPickens" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1580.png" class="playerImage3" alt="Marlon Mack">
+            <p id="freirmuth" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingFreirmuth" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsFreirmuth" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsFreirmuth" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsFreirmuth" class="fumbles0"></p>
+        </div>
+        <div class="p11_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/29.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/2088.png" class="playerImage0" alt="Latavius Murray">
+            <p id="lamb" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingLamb" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsLamb" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsLamb" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsLamb" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2086.png" class="playerImage2" alt="Marlon Mack">
+            <p id="gallup" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingGallup" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsGallup" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsGallup" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsGallup" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2097.png" class="playerImage3" alt="Marlon Mack">
+            <p id="shultz" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingShultz" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsShultz" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsShultz" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsShultz" class="fumbles0"></p>
+        </div>
+        <div class="p12_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/23.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1645.png" class="playerImage0" alt="Latavius Murray">
+            <p id="metcalf" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingMetcalf" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsMetcalf" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsMetcalf" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsMetcalf" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1644.png" class="playerImage2" alt="Marlon Mack">
+            <p id="lockett" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingLockett" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsLockett" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsLockett" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsLockett" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1649.png" class="playerImage3" alt="Marlon Mack">
+            <p id="fant" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingFant" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsFant" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsFant" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsFant" class="fumbles0"></p>
+        </div>
+        <div class="p13_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/27.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1937.png" class="playerImage0" alt="Latavius Murray">
+            <p id="olave" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingOlave" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsOlave" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsOlave" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsOlave" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1935.png" class="playerImage2" alt="Marlon Mack">
+            <p id="landry" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingLandry" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsLandry" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsLandry" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsLandry" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1938.png" class="playerImage3" alt="Marlon Mack">
+            <p id="shaheed" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingShaheed" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsShaheed" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsShaheed" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsShaheed" class="fumbles0"></p>
+        </div>
+        <div class="p14_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/11.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/766.png" class="playerImage0" alt="Latavius Murray">
+            <p id="hopkins" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingHopkins" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsHopkins" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsHopkins" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsHopkins" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/763.png" class="playerImage2" alt="Marlon Mack">
+            <p id="mBrown" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingmBrown" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsmBrown" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsmBrown" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsmBrown" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1350.png" class="playerImage3" alt="Marlon Mack">
+            <p id="anderson" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingAnderson" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsAnderson" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsAnderson" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsAnderson" class="fumbles0"></p>
+        </div>
+        <div class="p15_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/8.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/542.png" class="playerImage0" alt="Latavius Murray">
+            <p id="london" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingLondon" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsLondon" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsLondon" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsLondon" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/544.png" class="playerImage2" alt="Marlon Mack">
+            <p id="zaccheaus" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingZaccheaus" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsZaccheaus" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsZaccheaus" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsZaccheaus" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/538.png" class="playerImage3" alt="Marlon Mack">
+            <p id="byrd" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingByrd" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsByrd" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsByrd" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsByrd" class="fumbles0"></p>
+        </div>
+        <div class="p16_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/5.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/302.png" class="playerImage0" alt="Latavius Murray">
+            <p id="duvernay" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingDuvernay" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsDuvernay" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsDuvernay" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsDuvernay" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/3428.png" class="playerImage2" alt="Marlon Mack">
+            <p id="jackson" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingJackson" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsJackson" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsJackson" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsJackson" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/309.png" class="playerImage3" alt="Marlon Mack">
+            <p id="andrews" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingAndrews" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsAndrews" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsAndrews" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsAndrews" class="fumbles0"></p>
+        </div>
+        <div class="p17_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/19.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1353.png" class="playerImage0" alt="Latavius Murray">
+            <p id="moore" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingMoore" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsMoore" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsMoore" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsMoore" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1356.png" class="playerImage2" alt="Marlon Mack">
+            <p id="shenault" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingShenault" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsShenault" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsShenault" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsShenault" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1362.png" class="playerImage3" alt="Marlon Mack">
+            <p id="thomas" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingThomas" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsThomas" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsThomas" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsThomas" class="fumbles0"></p>
+        </div>
+        <div class="p18_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/16.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1131.png" class="playerImage0" alt="Latavius Murray">
+            <p id="mooney" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingMooney" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsMooney" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsMooney" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsMooney" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1573.png" class="playerImage2" alt="Marlon Mack">
+            <p id="claypool" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingClaypool" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsClaypool" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsClaypool" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsClaypool" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1139.png" class="playerImage3" alt="Marlon Mack">
+            <p id="kmet" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingKmet" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsKmet" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsKmet" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsKmet" class="fumbles0"></p>
+        </div>
+        <div class="p19_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/9.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/618.png" class="playerImage0" alt="Latavius Murray">
+            <p id="cooper" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingCooper" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsCooper" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsCooper" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsCooper" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/630.png" class="playerImage2" alt="Marlon Mack">
+            <p id="njoku" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingNjoku" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsNjoku" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsNjoku" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsNjoku" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/621.png" class="playerImage3" alt="Marlon Mack">
+            <p id="peoples_jones" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingPeoples_Jones" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsPeoples_Jones" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsPeoples_Jones" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsPeoples_Jones" class="fumbles0"></p>
+        </div>
+        <div class="p20_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/7.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/464.png" class="playerImage0" alt="Latavius Murray">
+            <p id="st_brown" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingSt_Brown" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsSt_Brown" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsSt_Brown" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsSt_Brown" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/460.png" class="playerImage2" alt="Marlon Mack">
+            <p id="chark" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingChark" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsChark" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsChark" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsChark" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/462.png" class="playerImage3" alt="Marlon Mack">
+            <p id="raymond" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingRaymond" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsRaymond" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsRaymond" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsRaymond" class="fumbles0"></p>
+        </div>
+        <div class="p21_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/15.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1059.png" class="playerImage0" alt="Latavius Murray">
+            <p id="lazard" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingLazard" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsLazard" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsLazard" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsLazard" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1063.png" class="playerImage2" alt="Marlon Mack">
+            <p id="watson" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingWatson" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsWatson" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsWatson" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsWatson" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1056.png" class="playerImage3" alt="Marlon Mack">
+            <p id="cobb" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingCobb" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsCobb" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsCobb" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsCobb" class="fumbles0"></p>
+        </div>
+        <div class="p22_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/26.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1862.png" class="playerImage0" alt="Latavius Murray">
+            <p id="cooks" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingCooks" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsCooks" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsCooks" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsCooks" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1860.png" class="playerImage2" alt="Marlon Mack">
+            <p id="collins" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingCollins" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsCollins" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsCollins" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsCollins" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1866.png" class="playerImage3" alt="Marlon Mack">
+            <p id="cMoore" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingcMoore" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardscMoore" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownscMoore" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionscMoore" class="fumbles0"></p>
+        </div>
+        <div class="p23_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/21.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1501.png" class="playerImage0" alt="Latavius Murray">
+            <p id="pittman" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingPittman" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsPittman" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsPittman" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsPittman" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1495.png" class="playerImage2" alt="Marlon Mack">
+            <p id="campbell" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingCampbell" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsCampbell" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsCampbell" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsCampbell" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1500.png" class="playerImage3" alt="Marlon Mack">
+            <p id="aPierce" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingaPierce" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsaPierce" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsaPierce" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsaPierce" class="fumbles0"></p>
+        </div>
+        <div class="p24_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/2.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/82.png" class="playerImage0" alt="Latavius Murray">
+            <p id="kirk" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingKirk" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsKirk" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsKirk" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsKirk" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/80.png" class="playerImage2" alt="Marlon Mack">
+            <p id="zJones" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingzJones" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardszJones" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownszJones" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionszJones" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/81.png" class="playerImage3" alt="Marlon Mack">
+            <p id="mJones" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingmJones" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsmJones" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsmJones" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsmJones" class="fumbles0"></p>
+        </div>
+        <div class="p25_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/17.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1209.png" class="playerImage0" alt="Latavius Murray">
+            <p id="smith_shuster" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingSmith_Shuster" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsSmith_Shuster" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsSmith_Shuster" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsSmith_Shuster" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1210.png" class="playerImage2" alt="Marlon Mack">
+            <p id="valdes_scantling" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingValdes_Scantling" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsValdes_Scantling" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsValdes_Scantling" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsValdes_Scantling" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1215.png" class="playerImage3" alt="Marlon Mack">
+            <p id="kelce" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingKelce" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsKelce" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsKelce" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsKelce" class="fumbles0"></p>
+        </div>
+        <div class="p26_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/32.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/2319.png" class="playerImage0" alt="Latavius Murray">
+            <p id="jefferson" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingJefferson" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsJefferson" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsJefferson" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsJefferson" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2325.png" class="playerImage2" alt="Marlon Mack">
+            <p id="thielen" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingThielen" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsThielen" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsThielen" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsThielen" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/2322.png" class="playerImage3" alt="Marlon Mack">
+            <p id="osborn" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingOsborn" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsOsborn" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsOsborn" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsOsborn" class="fumbles0"></p>
+        </div>
+        <div class="p27_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/3.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/152.png" class="playerImage0" alt="Latavius Murray">
+            <p id="meyers" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingMeyers" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsMeyers" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsMeyers" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsMeyers" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/155.png" class="playerImage2" alt="Marlon Mack">
+            <p id="parker" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingParker" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsParker" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsParker" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsParker" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/148.png" class="playerImage3" alt="Marlon Mack">
+            <p id="agholor" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingAgholor" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsAgholor" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsAgholor" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsAgholor" class="fumbles0"></p>
+        </div>
+        <div class="p28_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/4.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/234.png" class="playerImage0" alt="Latavius Murray">
+            <p id="slayton" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingSlayton" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsSlayton" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsSlayton" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsSlayton" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/226.png" class="playerImage2" alt="Marlon Mack">
+            <p id="rJames" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingrJames" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsrJames" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsrJames" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsrJames" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/225.png" class="playerImage3" alt="Marlon Mack">
+            <p id="golladay" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingGolladay" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsGolladay" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsGolladay" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsGolladay" class="fumbles0"></p>
+        </div>
+        <div class="p29_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/13.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/919.png" class="playerImage0" alt="Latavius Murray">
+            <p id="wilson" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingWilson" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsWilson" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsWilson" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsWilson" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/916.png" class="playerImage2" alt="Marlon Mack">
+            <p id="eMoore" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingeMoore" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardseMoore" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownseMoore" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionseMoore" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/911.png" class="playerImage3" alt="Marlon Mack">
+            <p id="braxton_berrios" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingBraxton_Berrios" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsBraxton_Berrios" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsBraxton_Berrios" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsBraxton_Berrios" class="fumbles0"></p>
+        </div>
+        <div class="p30_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/6.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/384.png" class="playerImage0" alt="Latavius Murray">
+            <p id="woods" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingWoods" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsWoods" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsWoods" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsWoods" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/376.png" class="playerImage2" alt="Marlon Mack">
+            <p id="burks" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingBurks" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardsBurks" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownsBurks" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionsBurks" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/383.png" class="playerImage3" alt="Marlon Mack">
+            <p id="westbrook_ikhine" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingWestbrook_Ikhine" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsWestbrook_Ikhine" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsWestbrook_Ikhine" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsWestbrook_Ikhine" class="fumbles0"></p>
+        </div>
+        <div class="p31_0">
+            <div class="corner_0"></div>
+            <img src="https://media.api-sports.io/american-football/teams/18.png"
+            class="team_0">
+            <img src="https://media.api-sports.io/american-football/players/1271.png" class="playerImage0" alt="Latavius Murray">
+            <p id="mclaurin" class="player0"></p>
+            <h6 class="pAttempts0">Receiving Targets</h6>
+            <p id="receivingMclaurin" class="passingAttempts0"></p>
+            <h6 class="pCompletions0">Receiving Yards</h6>
+            <p id="yardsMclaurin" class="passingCompletions0"></p>
+            <h6 class="pYards0">Receiving Touchdowns</h6>
+            <p id="tdsMclaurin" class="passingYards0"></p>
+            <h6 class="pYPR0">Receptions</h6>
+            <p id="receptionsMclaurin" class="passingTouchdowns0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1274.png" class="playerImage2" alt="Marlon Mack">
+            <p id="cSamuel" class="player6"></p>
+            <h6 class="rAttempts0">Receiving Targets</h6>
+            <p id="receivingcSamuel" class="rushingAttempts0"></p>
+            <h6 class="rYards0">Receiving Yards</h6>
+            <p id="yardscSamuel" class="rushingYards0"></p>
+            <h6 class="rTouchdowns0">Receiving Touchdowns</h6>
+            <p id="touchdownscSamuel" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR1">Receptions</h6>
+            <p id="receptionscSamuel" class="fumbles0"></p>
+            <img src="https://media.api-sports.io/american-football/players/1268.png" class="playerImage3" alt="Marlon Mack">
+            <p id="dotson" class="player7"></p>
+            <h6 class="rAttempts1">Receiving Targets</h6>
+            <p id="receivingDotson" class="rushingAttempts0"></p>
+            <h6 class="rYards1">Receiving Yards</h6>
+            <p id="yardsDotson" class="rushingYards0"></p>
+            <h6 class="rTouchdowns1">Receiving Touchdowns</h6>
+            <p id="touchdownsDotson" class="rushingTouchdowns0"></p>
+            <h6 class="pYPR2">Receptions</h6>
+            <p id="receptionsDotson" class="fumbles0"></p>
+        </div>
+<!-- ! END TODO -->
+<div class="navbar montserrat-bold-eerie-black-12px">
+    <a href="main.html">Home</a>
+    <div class="dropdown montserrat-bold-eerie-black-12px">
+      <button class="dropbtn montserrat-bold-eerie-black-12px" onclick="myFunction()">Teams, Injuries, Fantasy
+        <i class="fa fa-caret-down"></i> 
+      </button>
+      <div class="dropdown-content montserrat-bold-eerie-black-12px" id="myDropdown">
+        <a href="teams.html">NFL Teams</a>
+        <a href="injuries.html">NFL Injuries</a>
+        <a href="fantasy.html">NFL Fantasy</a>
+      </div>
+    </div> 
+  </div>
+</body>
+</html>

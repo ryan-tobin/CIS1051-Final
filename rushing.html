@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Teams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="rushScript.js"></script>
+</head>
+<body>
+    <div class="web-screen">
+      <div class="rec-1"></div>
+      <div class="rec-3"></div>
+      <div class="rec-10"></div>
+      <div class="rec-11"></div>
+      <div class="rec-12"></div>
+      <div class="rec-13"></div>
+      <div class="rec-14"></div>
+      <div class="rec-15"></div>
+      <div class="rec-9"></div>
+      <div class="nfl-live-stats">
+        <span class="span0">NFL</span>
+        <span class="span1">Live Statistics</span>
+      </div>
+      <!-- Start Box's -->
+      <!-- 1st Box -->
+      <div class="gameTime_0">
+        <p id="shortName_0"></p>
+      </div>
+      <div class="monserrat-bold-1_0 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_0"></p>
+      </div>
+      <div class="monserrat-bold-2_0 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_0"></p>
+      </div>
+      <div class="monserrat-bold-3_0 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_0"></p>
+      </div>
+      <div class="monserrat-bold-4_0 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_0"></p>
+      </div>
+      <!-- 2nd Box -->
+      <div class="gameTime_1">
+        <p id="shortName_1"></p>
+      </div>
+      <div class="monserrat-bold-1_1 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_1"></p>
+      </div>
+      <div class="monserrat-bold-2_1 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_1"></p>
+      </div>
+      <div class="monserrat-bold-3_1 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_1"></p>
+      </div>
+      <div class="monserrat-bold-4_1 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_1"></p>
+      </div>
+      <!-- 3rd Box -->
+      <div class="gameTime_2">
+        <p id="shortName_2"></p>
+      </div>
+      <div class="monserrat-bold-1_2 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_2"></p>
+      </div>
+      <div class="monserrat-bold-2_2 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_2"></p>
+      </div>
+      <div class="monserrat-bold-3_2 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_2"></p>
+      </div>
+      <div class="monserrat-bold-4_2 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_2"></p>
+      </div>
+      <!-- 4th Box -->
+      <div class="gameTime_3">
+        <p id="shortName_3"></p>
+      </div>
+      <div class="monserrat-bold-1_3 montserrat-bold-quick-silver-12px">
+        <p id="homeTeamRecord_3"></p>
+      </div>
+      <div class="monserrat-bold-2_3 montserrat-bold-quick-silver-12px">
+        <p id="awayTeamRecord_3"></p>
+      </div>
+      <div class="monserrat-bold-3_3 montserrat-bold-eerie-black-12px">
+        <p id="homeTeam_3"></p>
+      </div>
+      <div class="monserrat-bold-4_3 montserrat-bold-eerie-black-12px">
+        <p id="awayTeam_3"></p>
+      </div>
+      <!-- 5th Box -->
+      <div class="gameTime_4">
+        <p id="shortName_4"></p>
+        </div>
+        <div class="monserrat-bold-1_4 montserrat-bold-quick-silver-12px">
+          <p id="homeTeamRecord_4"></p>
+        </div>
+        <div class="monserrat-bold-2_4 montserrat-bold-quick-silver-12px">
+          <p id="awayTeamRecord_4"></p>
+        </div>
+        <div class="monserrat-bold-3_4 montserrat-bold-eerie-black-12px">
+          <p id="homeTeam_4"></p>
+        </div>
+        <div class="monserrat-bold-4_4 montserrat-bold-eerie-black-12px">
+          <p id="awayTeam_4"></p>
+        </div>
+        <!-- 6th Box -->
+        <div class="gameTime_5">
+          <p id="shortName_5"></p>
+        </div>
+        <div class="monserrat-bold-1_5 montserrat-bold-quick-silver-12px">
+          <p id="homeTeamRecord_5"></p>
+        </div>
+        <div class="monserrat-bold-2_5 montserrat-bold-quick-silver-12px">
+          <p id="awayTeamRecord_5"></p>
+        </div>
+        <div class="monserrat-bold-3_5 montserrat-bold-eerie-black-12px">
+          <p id="homeTeam_5"></p>
+        </div>
+        <div class="monserrat-bold-4_5 montserrat-bold-eerie-black-12px">
+          <p id="awayTeam_5"></p>
+        </div>
+        <!-- 7th Box -->
+        <div class="gameTime_6">
+          <p id="shortName_6"></p>
+        </div>
+        <div class="monserrat-bold-1_6 montserrat-bold-quick-silver-12px">
+          <p id="homeTeamRecord_6"></p>
+        </div>
+        <div class="monserrat-bold-2_6 montserrat-bold-quick-silver-12px">
+          <p id="awayTeamRecord_6"></p>
+        </div>
+        <div class="monserrat-bold-3_6 montserrat-bold-eerie-black-12px">
+          <p id="homeTeam_6"></p>
+        </div>
+        <div class="monserrat-bold-4_6 montserrat-bold-eerie-black-12px">
+          <p id="awayTeam_6"></p>
+        </div>
+        <!-- End Box's -->
+        <div class="specific-header-1">
+          <span class="span2">Rushing <iconify-icon inline icon="fa-solid:running"></iconify-icon></span>
+        </div>
+<!-- TODO: QB Leaderboard -->
+<div class="p0">
+    <div class="corner"></div>
+    <img src="https://media.api-sports.io/american-football/teams/11.png"
+    class="team">
+    <img src="https://media.api-sports.io/american-football/players/756.png" class="playerImage0" alt="Derek Carr">
+    <p id="conner" class="player0"></p>
+    <h6 class="pAttempts0">Rushing Attempts</h6>
+    <p id="rushingConner" class="passingAttempts0"></p>
+    <h6 class="pCompletions0">Rushing Yards</h6>
+    <p id="yardsConner" class="passingCompletions0"></p>
+    <h6 class="pYards0">Rushing Touchdowns</h6>
+    <p id="tdsConner" class="passingYards0"></p>
+    <h6 class="pYPR0">Yards Per Rush</h6>
+    <p id="yprConner" class="passingTouchdowns0"></p>
+    <img src="https://media.api-sports.io/american-football/players/757.png" class="playerImage2" alt="Keaontay Ingram">
+    <p id="kIngram" class="player6"></p>
+    <h6 class="rAttempts0">Rushing Attempts</h6>
+    <p id="rushingkIngram" class="rushingAttempts0"></p>
+    <h6 class="rYards0">Rushing Yards</h6>
+    <p id="yardskIngram" class="rushingYards0"></p>
+    <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+    <p id="touchdownskIngram" class="rushingTouchdowns0"></p>
+    <h6 class="pYPR1">Yards Per Rush</h6>
+    <p id="yprkIngram" class="fumbles0"></p>
+</div>
+<div class="p1">
+    <div class="corner"></div>
+    <img src="https://media.api-sports.io/american-football/teams/8.png"
+    class="team">
+    <img src="https://media.api-sports.io/american-football/players/532.png" class="playerImage0" alt="Derek Carr">
+    <p id="patterson" class="player0"></p>
+    <h6 class="pAttempts0">Rushing Attempts</h6>
+    <p id="rushingPatterson" class="passingAttempts0"></p>
+    <h6 class="pCompletions0">Rushing Yards</h6>
+    <p id="yardsPatterson" class="passingCompletions0"></p>
+    <h6 class="pYards0">Rushing Touchdowns</h6>
+    <p id="tdsPatterson" class="passingYards0"></p>
+    <h6 class="pYPR0">Yards Per Rush</h6>
+    <p id="yprPatterson" class="passingTouchdowns0"></p>
+    <img src="https://media.api-sports.io/american-football/players/529.png" class="playerImage2" alt="Keaontay Ingram">
+    <p id="allgeier" class="player6"></p>
+    <h6 class="rAttempts0">Rushing Attempts</h6>
+    <p id="rushingAllgeier" class="rushingAttempts0"></p>
+    <h6 class="rYards0">Rushing Yards</h6>
+    <p id="yardsAllgeier" class="rushingYards0"></p>
+    <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+    <p id="touchdownsAllgeier" class="rushingTouchdowns0"></p>
+    <h6 class="pYPR1">Yards Per Rush</h6>
+    <p id="yprAllgeier" class="fumbles0"></p>
+</div>
+<div class="p2">
+    <div class="corner"></div>
+    <img src="https://media.api-sports.io/american-football/teams/5.png"
+    class="team">
+    <img src="https://media.api-sports.io/american-football/players/296.png" class="playerImage0" alt="Derek Carr">
+    <p id="edwards" class="player0"></p>
+    <h6 class="pAttempts0">Rushing Attempts</h6>
+    <p id="rushingEdwards" class="passingAttempts0"></p>
+    <h6 class="pCompletions0">Rushing Yards</h6>
+    <p id="yardsEdwards" class="passingCompletions0"></p>
+    <h6 class="pYards0">Rushing Touchdowns</h6>
+    <p id="tdsEdwards" class="passingYards0"></p>
+    <h6 class="pYPR0">Yards Per Rush</h6>
+    <p id="yprEdwards" class="passingTouchdowns0"></p>
+    <img src="https://media.api-sports.io/american-football/players/295.png" class="playerImage2" alt="Keaontay Ingram">
+    <p id="drake" class="player6"></p>
+    <h6 class="rAttempts0">Rushing Attempts</h6>
+    <p id="rushingDrake" class="rushingAttempts0"></p>
+    <h6 class="rYards0">Rushing Yards</h6>
+    <p id="yardsDrake" class="rushingYards0"></p>
+    <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+    <p id="touchdownsDrake" class="rushingTouchdowns0"></p>
+    <h6 class="pYPR1">Yards Per Rush</h6>
+    <p id="yprDrake" class="fumbles0"></p>
+</div>
+<div class="p3">
+    <div class="corner"></div>
+    <img src="https://media.api-sports.io/american-football/teams/20.png"
+    class="team">
+    <img src="https://media.api-sports.io/american-football/players/1421.png" class="playerImage0" alt="Derek Carr">
+    <p id="singletary" class="player0"></p>
+    <h6 class="pAttempts0">Rushing Attempts</h6>
+    <p id="rushingSingletary" class="passingAttempts0"></p>
+    <h6 class="pCompletions0">Rushing Yards</h6>
+    <p id="yardsSingletary" class="passingCompletions0"></p>
+    <h6 class="pYards0">Rushing Touchdowns</h6>
+    <p id="tdsSingletary" class="passingYards0"></p>
+    <h6 class="pYPR0">Yards Per Rush</h6>
+    <p id="yprSingletary" class="passingTouchdowns0"></p>
+    <img src="https://media.api-sports.io/american-football/players/1417.png" class="playerImage2" alt="Keaontay Ingram">
+    <p id="jCook" class="player6"></p>
+    <h6 class="rAttempts0">Rushing Attempts</h6>
+    <p id="rushingjCook" class="rushingAttempts0"></p>
+    <h6 class="rYards0">Rushing Yards</h6>
+    <p id="yardsjCook" class="rushingYards0"></p>
+    <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+    <p id="touchdownsjCook" class="rushingTouchdowns0"></p>
+    <h6 class="pYPR1">Yards Per Rush</h6>
+    <p id="yprjCook" class="fumbles0"></p>
+</div>
+<div class="p4">
+    <div class="corner"></div>
+    <img src="https://media.api-sports.io/american-football/teams/19.png"
+    class="team">
+    <img src="https://media.api-sports.io/american-football/players/1345.png" class="playerImage0" alt="Derek Carr">
+    <p id="foreman" class="player0"></p>
+    <h6 class="pAttempts0">Rushing Attempts</h6>
+    <p id="rushingForeman" class="passingAttempts0"></p>
+    <h6 class="pCompletions0">Rushing Yards</h6>
+    <p id="yardsForeman" class="passingCompletions0"></p>
+    <h6 class="pYards0">Rushing Touchdowns</h6>
+    <p id="tdsForeman" class="passingYards0"></p>
+    <h6 class="pYPR0">Yards Per Rush</h6>
+    <p id="yprForeman" class="passingTouchdowns0"></p>
+    <img src="https://media.api-sports.io/american-football/players/1346.png" class="playerImage2" alt="Keaontay Ingram">
+    <p id="hubbard" class="player6"></p>
+    <h6 class="rAttempts0">Rushing Attempts</h6>
+    <p id="rushingHubbard" class="rushingAttempts0"></p>
+    <h6 class="rYards0">Rushing Yards</h6>
+    <p id="yardsHubbard" class="rushingYards0"></p>
+    <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+    <p id="touchdownsHubbard" class="rushingTouchdowns0"></p>
+    <h6 class="pYPR1">Yards Per Rush</h6>
+    <p id="yprHubbard" class="fumbles0"></p>
+</div>
+<div class="p5">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/16.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1126.png" class="playerImage0" alt="Derek Carr">
+  <p id="montgomery" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingMontgomery" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsMontgomery" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsMontgomery" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprMontgomery" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1124.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="evans" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingEvans" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsEvans" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsEvans" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprEvans" class="fumbles0"></p>
+</div>
+<div class="p6">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/10.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/686.png" class="playerImage0" alt="Derek Carr">
+  <p id="mixon" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingMixon" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsMixon" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsMixon" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprMixon" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/687.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="perine" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingPerine" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsPerine" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsPerine" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprPerine" class="fumbles0"></p>
+</div>
+<div class="p7">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/29.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/2080.png" class="playerImage0" alt="Derek Carr">
+  <p id="elliot" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingElliot" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsElliot" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsElliot" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprElliot" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/2082.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="pollard" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingPollard" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsPollard" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsPollard" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprPollard" class="fumbles0"></p>
+</div>
+<div class="p8">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/9.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/610.png" class="playerImage0" alt="Derek Carr">
+  <p id="chubb" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingChubb" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsChubb" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsChubb" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprChubb" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/613.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="hunt" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingHunt" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsHunt" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsHunt" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprHunt" class="fumbles0"></p>
+</div>
+<div class="p9">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/7.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/455.png" class="playerImage0" alt="Derek Carr">
+  <p id="swift" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingSwift" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsSwift" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsSwift" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprSwift" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/456.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="williams" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingWilliams" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsWilliams" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsWilliams" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprWilliams" class="fumbles0"></p>
+</div>
+<div class="p10">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/15.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1054.png" class="playerImage0" alt="Derek Carr">
+  <p id="jones" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingJones" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsJones" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsJones" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprJones" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1051.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="dillon" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingDillon" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsDillon" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsDillon" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprDillon" class="fumbles0"></p>
+</div>
+<div class="p11">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/26.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1859.png" class="playerImage0" alt="Derek Carr">
+  <p id="pierce" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingPierce" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsPierce" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsPierce" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprPierce" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1855.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="burkhead" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingBurkhead" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsBurkhead" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsBurkhead" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprBurkhead" class="fumbles0"></p>
+</div>
+<div class="p12">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/21.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1494.png" class="playerImage0" alt="Derek Carr">
+  <p id="taylor" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingTaylor" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsTaylor" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsTaylor" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprTaylor" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1420.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="moss" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingMoss" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsMoss" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsMoss" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprMoss" class="fumbles0"></p>
+</div>
+<div class="p13">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/2.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/72.png" class="playerImage0" alt="Derek Carr">
+  <p id="etienne" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingEtienne" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsEtienne" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsEtienne" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprEtienne" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/73.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="hasty" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingHasty" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsHasty" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsHasty" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprHasty" class="fumbles0"></p>
+</div>
+<div class="p14">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/17.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1202.png" class="playerImage0" alt="Derek Carr">
+  <p id="pacheco" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingPacheco" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsPacheco" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsPacheco" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprPacheco" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1201.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="mckinnon" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingMckinnon" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsMckinnon" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsMckinnon" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprMckinnon" class="fumbles0"></p>
+</div>
+<div class="p15">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/30.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/2153.png" class="playerImage0" alt="Derek Carr">
+  <p id="ekeler" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingEkeler" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsEkeler" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsEkeler" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprEkeler" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/2154.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="kelley" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingKelley" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsKelley" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsKelley" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprKelley" class="fumbles0"></p>
+</div>
+<div class="p16">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/31.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/2229.png" class="playerImage0" alt="Derek Carr">
+  <p id="akers" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingAkers" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsAkers" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsAkers" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprAkers" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/2234.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="williams" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingWilliams" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsWilliams" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsWilliams" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprWilliams" class="fumbles0"></p>
+</div>
+<div class="p17">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/1.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/6.png" class="playerImage0" alt="Derek Carr">
+  <p id="jacobs" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingJacobs" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsJacobs" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsJacobs" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprJacobs" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/3.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="abdullah" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingAbdullah" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsAbdullah" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsAbdullah" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprAbdullah" class="fumbles0"></p>
+</div>
+<div class="p18">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/25.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/985.png" class="playerImage0" alt="Derek Carr">
+  <p id="wilson" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingWilson" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsWilson" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsWilson" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprWilson" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1786.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="gaskin" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingGaskin" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsGaskin" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsGaskin" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprGaskin" class="fumbles0"></p>
+</div>
+<div class="p19">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/32.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/2311.png" class="playerImage0" alt="Derek Carr">
+  <p id="cook" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingCook" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsCook" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsCook" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprCook" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/2313.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="mattison" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingMattison" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsMattison" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsMattison" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprMattison" class="fumbles0"></p>
+</div>
+<div class="p20">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/3.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/145.png" class="playerImage0" alt="Derek Carr">
+  <p id="stevenson" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingStevenson" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsStevenson" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsStevenson" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprStevenson" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/143.png" class="playerImage2" alt="Keaontay Ingram">
+  <p id="harris" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingHarris" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsHarris" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsHarris" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprHarris" class="fumbles0"></p>
+</div>
+<div class="p21">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/27.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1928.png" class="playerImage0" alt="Alvin Kamara">
+  <p id="kamara" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingKamara" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsKamara" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsKamara" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprKamara" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1926.png" class="playerImage2" alt="Mark Ingram II">
+  <p id="ingram" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingIngram" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsIngram" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsIngram" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprIngram" class="fumbles0"></p>
+</div>
+<div class="p22">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/4.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/219.png" class="playerImage0" alt="Saquon Barkley">
+  <p id="barkley" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingBarkley" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsBarkley" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsBarkley" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprBarkley" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/220.png" class="playerImage2" alt="Matt Breida">
+  <p id="breida" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingBreida" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsBreida" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsBreida" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprBreida" class="fumbles0"></p>
+</div>
+<div class="p23">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/13.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/906.png" class="playerImage0" alt="Michael Carter">
+  <p id="carter" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingCarter" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsCarter" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsCarter" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprCarter" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/908.png" class="playerImage2" alt="Ty Johnson">
+  <p id="johnson" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingJohnson" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsJohnson" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsJohnson" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprJohnson" class="fumbles0"></p>
+</div>
+<div class="p24">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/12.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/834.png" class="playerImage0" alt="Miles Sanders">
+  <p id="sanders" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingSanders" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsSanders" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsSanders" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprSanders" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/833.png" class="playerImage2" alt="Kenneth Gainwell">
+  <p id="gainwell" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingGainwell" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsGainwell" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsGainwell" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprGainwell" class="fumbles0"></p>
+</div>
+<div class="p25">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/22.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1565.png" class="playerImage0" alt="Najee Harris">
+  <p id="nHarris" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingnHarris" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsnHarris" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsnHarris" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprnHarris" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1568.png" class="playerImage2" alt="Benny Snell Jr.">
+  <p id="snell" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingSnell" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsSnell" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsSnell" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprSnell" class="fumbles0"></p>
+</div>
+<div class="p26">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/14.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1348.png" class="playerImage0" alt="Christian McCaffrey">
+  <p id="mccaffrey" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingMccaffrey" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsMccaffrey" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsMccaffrey" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprMccaffrey" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/986.png" class="playerImage2" alt="Kyle Juszczyk">
+  <p id="jus" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingJus" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsJus" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsJus" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprJus" class="fumbles0"></p>
+</div>
+<div class="p27">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/23.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1640.png" class="playerImage0" alt="Kenneth Walker III">
+  <p id="walker" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingWalker" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsWalker" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsWalker" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprWalker" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1637.png" class="playerImage2" alt="Travis Homer">
+  <p id="homer" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingHomer" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsHomer" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsHomer" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprHomer" class="fumbles0"></p>
+</div>
+<div class="p28">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/24.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1713.png" class="playerImage0" alt="Rachaad White">
+  <p id="white" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingWhite" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsWhite" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsWhite" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprWhite" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1712.png" class="playerImage2" alt="Ke'Shawn Vaughn">
+  <p id="vaughn" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingVaughn" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsVaughn" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsVaughn" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprVaughn" class="fumbles0"></p>
+</div>
+<div class="p29">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/6.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/373.png" class="playerImage0" alt="Derrick Henry">
+  <p id="henry" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingHenry" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsHenry" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsHenry" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprHenry" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/374.png" class="playerImage2" alt="Dontrell Hilliard">
+  <p id="hilliard" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingHilliard" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsHilliard" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsHilliard" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprHilliard" class="fumbles0"></p>
+</div>
+<div class="p30">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/18.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1265.png" class="playerImage0" alt="Brian Robinson Jr.">
+  <p id="robinson" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingRobinson" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsRobinson" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsRobinson" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprRobinson" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/1262.png" class="playerImage2" alt="Antonio Gibson">
+  <p id="gibson" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingGibson" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsGibson" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsGibson" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprGibson" class="fumbles0"></p>
+</div>
+<div class="p31">
+  <div class="corner"></div>
+  <img src="https://media.api-sports.io/american-football/teams/28.png"
+  class="team">
+  <img src="https://media.api-sports.io/american-football/players/1929.png" class="playerImage0" alt="Latavius Murray">
+  <p id="murray" class="player0"></p>
+  <h6 class="pAttempts0">Rushing Attempts</h6>
+  <p id="rushingMurray" class="passingAttempts0"></p>
+  <h6 class="pCompletions0">Rushing Yards</h6>
+  <p id="yardsMurray" class="passingCompletions0"></p>
+  <h6 class="pYards0">Rushing Touchdowns</h6>
+  <p id="tdsMurray" class="passingYards0"></p>
+  <h6 class="pYPR0">Yards Per Rush</h6>
+  <p id="yprMurray" class="passingTouchdowns0"></p>
+  <img src="https://media.api-sports.io/american-football/players/982.png" class="playerImage2" alt="Marlon Mack">
+  <p id="mack" class="player6"></p>
+  <h6 class="rAttempts0">Rushing Attempts</h6>
+  <p id="rushingMack" class="rushingAttempts0"></p>
+  <h6 class="rYards0">Rushing Yards</h6>
+  <p id="yardsMack" class="rushingYards0"></p>
+  <h6 class="rTouchdowns0">Rushing Touchdowns</h6>
+  <p id="touchdownsMack" class="rushingTouchdowns0"></p>
+  <h6 class="pYPR1">Yards Per Rush</h6>
+  <p id="yprMack" class="fumbles0"></p>
+</div>
+<!-- ! END TODO -->
+<div class="navbar montserrat-bold-eerie-black-12px">
+    <a href="main.html">Home</a>
+    <div class="dropdown montserrat-bold-eerie-black-12px">
+      <button class="dropbtn montserrat-bold-eerie-black-12px" onclick="myFunction()">Teams, Injuries, Fantasy
+        <i class="fa fa-caret-down"></i> 
+      </button>
+      <div class="dropdown-content montserrat-bold-eerie-black-12px" id="myDropdown">
+        <a href="teams.html">NFL Teams</a>
+        <a href="injuries.html">NFL Injuries</a>
+        <a href="fantasy.html">NFL Fantasy</a>
+      </div>
+    </div> 
+  </div>
+</body>
+</html>
