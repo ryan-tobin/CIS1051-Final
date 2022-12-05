@@ -9,7 +9,7 @@ const newsoptions = {
 
 
 fetch('https://bing-news-search1.p.rapidapi.com/news/search?q=NFL&freshness=Day&textFormat=Raw&safeSearch=Off', newsoptions)
-  .then((response) => response.json())
+ // .then((response) => response.json())
   .then((articles) => {
     const newsArticles = articles;
     const news = JSON.stringify(newsArticles);

@@ -12,15 +12,127 @@ window.onclick = function (event) {
   }
 };
 
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show2");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn2")) {
+    var myDropdown2 = document.getElementById("myDropdown2");
+    if (myDropdown2.classList.contains("show2")) {
+      myDropdown2.classList.remove("show2");
+    }
+  }
+};
+
+function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show3");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn3")) {
+    var myDropdown3 = document.getElementById("myDropdown3");
+    if (myDropdown3.classList.contains("show3")) {
+      myDropdown3.classList.remove("show3");
+    }
+  }
+};
+
+function myFunction4() {
+  document.getElementById("myDropdown4").classList.toggle("show4");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn4")) {
+    var myDropdown4 = document.getElementById("myDropdown4");
+    if (myDropdown4.classList.contains("show4")) {
+      myDropdown4.classList.remove("show4");
+    }
+  }
+};
+
+function myFunction5() {
+  document.getElementById("myDropdown5").classList.toggle("show5");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn5")) {
+    var myDropdown5 = document.getElementById("myDropdown5");
+    if (myDropdown5.classList.contains("show5")) {
+      myDropdown5.classList.remove("show5");
+    }
+  }
+};
+
+function myFunction6() {
+  document.getElementById("myDropdown6").classList.toggle("show6");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn6")) {
+    var myDropdown6 = document.getElementById("myDropdown6");
+    if (myDropdown6.classList.contains("show6")) {
+      myDropdown6.classList.remove("show6");
+    }
+  }
+};
+
+function myFunction7() {
+  document.getElementById("myDropdown7").classList.toggle("show7");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn7")) {
+    var myDropdown7 = document.getElementById("myDropdown7");
+    if (myDropdown7.classList.contains("show7")) {
+      myDropdown7.classList.remove("show7");
+    }
+  }
+};
+
+function myFunction8() {
+  document.getElementById("myDropdown8").classList.toggle("show8");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn8")) {
+    var myDropdown8 = document.getElementById("myDropdown8");
+    if (myDropdown8.classList.contains("show8")) {
+      myDropdown8.classList.remove("show8");
+    }
+  }
+};
+
+function myFunction9() {
+  document.getElementById("myDropdown9").classList.toggle("show9");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn9")) {
+    var myDropdown9 = document.getElementById("myDropdown9");
+    if (myDropdown9.classList.contains("show9")) {
+      myDropdown9.classList.remove("show9");
+    }
+  }
+};
+
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "35ae043db2msh31e6f118f6fc8f9p11ee0fjsn977b28636f2e",
-    "X-RapidAPI-Host": "nfl-schedule.p.rapidapi.com",
+    "X-RapidAPI-Key": "3d2c5fa2d5d5faa5d45733e27ce93974",
+    "X-RapidAPI-Host": "v1.american-football.api-sports.io",
   },
 };
 
-fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
+fetch("https://v1.american-football.api-sports.io/games?date=2022-12-04&league=1&season=2022", options)
   .then((response) => response.json())
   .then((schedule) => {
     const sched = schedule;
@@ -30,110 +142,61 @@ fetch("https://nfl-schedule.p.rapidapi.com/v1/schedules", options)
     let text = localStorage.getItem("schedule");
     let obj = JSON.parse(text);
     // first box
-    document.getElementById("homeTeam_0").innerHTML = obj.data[0].homeTeam.name;
-    document.getElementById("awayTeam_0").innerHTML = obj.data[0].awayTeam.name;
-    document.getElementById("homeTeamRecord_0").innerHTML =
-      obj.data[0].homeTeam.score;
-    document.getElementById("awayTeamRecord_0").innerHTML =
-      obj.data[0].awayTeam.score;
-    document.getElementById("shortName_0").innerHTML = obj.data[0].shortName;
-    if (obj.data[0].homeTeam.score > obj.data[0].awayTeam.score) {
-      document.getElementById("homeTeamRecord_0").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_0").style.color = color =
-        "#ff3b3f";
-    }
+    document.getElementById("homeTeam_0").innerHTML = obj.response[0].teams.home.name;
+    document.getElementById("awayTeam_0").innerHTML = obj.response[0].teams.away.name;
+    document.getElementById("homeTeamRecord_0").innerHTML = obj.response[0].scores.home.total;
+    document.getElementById("awayTeamRecord_0").innerHTML = obj.response[0].scores.away.total;
+    document.getElementById("shortName_0").innerHTML = obj.response[0].game.week;
+    document.getElementById("gameTimer_0").innerHTML = obj.response[0].game.status.timer;
+
     // second box
-    document.getElementById("homeTeam_1").innerHTML = obj.data[1].homeTeam.name;
-    document.getElementById("awayTeam_1").innerHTML = obj.data[1].awayTeam.name;
-    document.getElementById("homeTeamRecord_1").innerHTML =
-      obj.data[1].homeTeam.score;
-    document.getElementById("awayTeamRecord_1").innerHTML =
-      obj.data[1].awayTeam.score;
-    document.getElementById("shortName_1").innerHTML = obj.data[1].shortName;
-    if (obj.data[1].homeTeam.score > obj.data[1].awayTeam.score) {
-      document.getElementById("homeTeamRecord_1").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_1").style.color = color =
-        "#ff3b3f";
-    }
-    // third box
-    document.getElementById("homeTeam_2").innerHTML = obj.data[2].homeTeam.name;
-    document.getElementById("awayTeam_2").innerHTML = obj.data[2].awayTeam.name;
-    document.getElementById("homeTeamRecord_2").innerHTML =
-      obj.data[2].homeTeam.score;
-    document.getElementById("awayTeamRecord_2").innerHTML =
-      obj.data[2].awayTeam.score;
-    document.getElementById("shortName_2").innerHTML = obj.data[2].shortName;
-    if (obj.data[2].homeTeam.score > obj.data[2].awayTeam.score) {
-      document.getElementById("homeTeamRecord_2").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_2").style.color = color =
-        "#ff3b3f";
-    }
-    // fourth box
-    document.getElementById("homeTeam_3").innerHTML = obj.data[3].homeTeam.name;
-    document.getElementById("awayTeam_3").innerHTML = obj.data[3].awayTeam.name;
-    document.getElementById("homeTeamRecord_3").innerHTML =
-      obj.data[3].homeTeam.score;
-    document.getElementById("awayTeamRecord_3").innerHTML =
-      obj.data[3].awayTeam.score;
-    document.getElementById("shortName_3").innerHTML = obj.data[3].shortName;
-    if (obj.data[3].homeTeam.score > obj.data[3].awayTeam.score) {
-      document.getElementById("homeTeamRecord_3").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_3").style.color = color =
-        "#ff3b3f";
-    }
-    // fifth box
-    document.getElementById("homeTeam_4").innerHTML = obj.data[4].homeTeam.name;
-    document.getElementById("awayTeam_4").innerHTML = obj.data[4].awayTeam.name;
-    document.getElementById("homeTeamRecord_4").innerHTML =
-      obj.data[4].homeTeam.score;
-    document.getElementById("awayTeamRecord_4").innerHTML =
-      obj.data[4].awayTeam.score;
-    document.getElementById("shortName_4").innerHTML = obj.data[4].shortName;
-    if (obj.data[4].homeTeam.score > obj.data[4].awayTeam.score) {
-      document.getElementById("homeTeamRecord_4").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_4").style.color = color =
-        "#ff3b3f";
-    }
+    document.getElementById("homeTeam_1").innerHTML = obj.response[1].teams.home.name;
+    document.getElementById("awayTeam_1").innerHTML = obj.response[1].teams.away.name;
+    document.getElementById("homeTeamRecord_1").innerHTML = obj.response[1].scores.home.total;
+    document.getElementById("awayTeamRecord_1").innerHTML = obj.response[1].scores.away.total;
+    document.getElementById("shortName_1").innerHTML = obj.response[1].game.week;
+    document.getElementById("gameTimer_1").innerHTML = obj.response[1].game.status.timer;
+
+    //third box
+    document.getElementById("homeTeam_2").innerHTML = obj.response[2].teams.home.name;
+    document.getElementById("awayTeam_2").innerHTML = obj.response[2].teams.away.name;
+    document.getElementById("homeTeamRecord_2").innerHTML = obj.response[2].scores.home.total;
+    document.getElementById("awayTeamRecord_2").innerHTML = obj.response[2].scores.away.total;
+    document.getElementById("shortName_2").innerHTML = obj.response[2].game.week;
+    document.getElementById("gameTimer_2").innerHTML = obj.response[2].game.status.timer;
+
+    //fourth box
+    document.getElementById("homeTeam_3").innerHTML = obj.response[3].teams.home.name;
+    document.getElementById("awayTeam_3").innerHTML = obj.response[3].teams.away.name;
+    document.getElementById("homeTeamRecord_3").innerHTML = obj.response[3].scores.home.total;
+    document.getElementById("awayTeamRecord_3").innerHTML = obj.response[3].scores.away.total;
+    document.getElementById("shortName_3").innerHTML = obj.response[3].game.week;
+    document.getElementById("gameTimer_3").innerHTML = obj.response[3].game.status.timer;
+
+    //fifth box
+    document.getElementById("homeTeam_4").innerHTML = obj.response[5].teams.home.name;
+    document.getElementById("awayTeam_4").innerHTML = obj.response[5].teams.away.name;
+    document.getElementById("homeTeamRecord_4").innerHTML = obj.response[5].scores.home.total;
+    document.getElementById("awayTeamRecord_4").innerHTML = obj.response[5].scores.away.total;
+    document.getElementById("shortName_4").innerHTML = obj.response[5].game.week;
+    document.getElementById("gameTimer_4").innerHTML = obj.response[5].game.status.timer;
+
     // sixth box
-    document.getElementById("homeTeam_5").innerHTML = obj.data[5].homeTeam.name;
-    document.getElementById("awayTeam_5").innerHTML = obj.data[5].awayTeam.name;
-    document.getElementById("homeTeamRecord_5").innerHTML =
-      obj.data[5].homeTeam.score;
-    document.getElementById("awayTeamRecord_5").innerHTML =
-      obj.data[5].awayTeam.score;
-    document.getElementById("shortName_5").innerHTML = obj.data[5].shortName;
-    if (obj.data[5].homeTeam.score > obj.data[5].awayTeam.score) {
-      document.getElementById("homeTeamRecord_5").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_5").style.color = color =
-        "#ff3b3f";
-    }
+    document.getElementById("homeTeam_5").innerHTML = obj.response[6].teams.home.name;
+    document.getElementById("awayTeam_5").innerHTML = obj.response[6].teams.away.name;
+    document.getElementById("homeTeamRecord_5").innerHTML = obj.response[6].scores.home.total;
+    document.getElementById("awayTeamRecord_5").innerHTML = obj.response[6].scores.away.total;
+    document.getElementById("shortName_5").innerHTML = obj.response[6].game.week;
+    document.getElementById("gameTimer_5").innerHTML = obj.response[6].game.status.timer;
+
     // seventh box
-    document.getElementById("homeTeam_6").innerHTML = obj.data[6].homeTeam.name;
-    document.getElementById("awayTeam_6").innerHTML = obj.data[6].awayTeam.name;
-    document.getElementById("homeTeamRecord_6").innerHTML =
-      obj.data[6].homeTeam.score;
-    document.getElementById("awayTeamRecord_6").innerHTML =
-      obj.data[6].awayTeam.score;
-    document.getElementById("shortName_6").innerHTML = obj.data[6].shortName;
-    if (obj.data[6].homeTeam.score > obj.data[6].awayTeam.score) {
-      document.getElementById("homeTeamRecord_6").style.color = color =
-        "#ff3b3f";
-    } else {
-      document.getElementById("awayTeamRecord_6").style.color = color =
-        "#ff3b3f";
-    }
+    document.getElementById("homeTeam_6").innerHTML = obj.response[7].teams.home.name;
+    document.getElementById("awayTeam_6").innerHTML = obj.response[7].teams.away.name;
+    document.getElementById("homeTeamRecord_6").innerHTML = obj.response[7].scores.home.total;
+    document.getElementById("awayTeamRecord_6").innerHTML = obj.response[7].scores.away.total;
+    document.getElementById("shortName_6").innerHTML = obj.response[7].game.week;
+    document.getElementById("gameTimer_6").innerHTML = obj.response[7].game.status.timer;
+
   })
   .catch((error) => console.log(error));
 
@@ -2130,7 +2193,7 @@ fetch(
 
 // ! Lamar Jackson Stats
 fetch(
-  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=292",
+  "https://api-american-football.p.rapidapi.com/players/statistics?season=2022&id=291",
   playerStatsOptions
 )
   .then((response) => response.json())
@@ -2156,7 +2219,7 @@ fetch(
 
     document.getElementById("yardsPerAttempt30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[4].value;
 
-    document.getElementById("i`nterceptions30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
+    document.getElementById("interceptions30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[9].value;
 
     document.getElementById("quaterbackRating30").innerHTML = pzeroStats.response[0].teams[0].groups[0].statistics[13].value;
 
