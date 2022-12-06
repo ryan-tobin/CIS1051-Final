@@ -504,198 +504,198 @@ fetch(
     let passing_obj = JSON.parse(text);
 
     //passing yards 0
-    document.getElementById("passing_yards_4").innerHTML =
+    document.getElementById("passing_yards_23").innerHTML =
       passing_obj._embedded.teamPassingStatsList[0].passYards;
     // passing yards 1
-    document.getElementById("passing_yards_11").innerHTML =
+    document.getElementById("passing_yards_26").innerHTML =
       passing_obj._embedded.teamPassingStatsList[1].passYards;
     // passing yards 2
-    document.getElementById("passing_yards_22").innerHTML =
+    document.getElementById("passing_yards_7").innerHTML =
       passing_obj._embedded.teamPassingStatsList[2].passYards;
     // passing yards 3
-    document.getElementById("passing_yards_25").innerHTML =
+    document.getElementById("passing_yards_24").innerHTML =
       passing_obj._embedded.teamPassingStatsList[3].passYards;
     //passing yards 4
-    document.getElementById("passing_yards_21").innerHTML =
+    document.getElementById("passing_yards_9").innerHTML =
       passing_obj._embedded.teamPassingStatsList[4].passYards;
     // passing yards 5
-    document.getElementById("passing_yards_15").innerHTML =
+    document.getElementById("passing_yards_16").innerHTML =
       passing_obj._embedded.teamPassingStatsList[5].passYards;
     // passing yards 6
-    document.getElementById("passing_yards_14").innerHTML =
+    document.getElementById("passing_yards_20").innerHTML =
       passing_obj._embedded.teamPassingStatsList[6].passYards;
     // passing yards 7
-    document.getElementById("passing_yards_3").innerHTML =
+    document.getElementById("passing_yards_30").innerHTML =
       passing_obj._embedded.teamPassingStatsList[7].passYards;
     //passing yards 8
-    document.getElementById("passing_yards_29").innerHTML =
+    document.getElementById("passing_yards_2").innerHTML =
       passing_obj._embedded.teamPassingStatsList[8].passYards;
     // passing yards 9
-    document.getElementById("passing_yards_16").innerHTML =
+    document.getElementById("passing_yards_15").innerHTML =
       passing_obj._embedded.teamPassingStatsList[9].passYards;
     // passing yards 10
-    document.getElementById("passing_yards_10").innerHTML =
+    document.getElementById("passing_yards_18").innerHTML =
       passing_obj._embedded.teamPassingStatsList[10].passYards;
     // passing yards 11
-    document.getElementById("passing_yards_31").innerHTML =
+    document.getElementById("passing_yards_19").innerHTML =
       passing_obj._embedded.teamPassingStatsList[11].passYards;
     //passing yards 12
-    document.getElementById("passing_yards_23").innerHTML =
+    document.getElementById("passing_yards_22").innerHTML =
       passing_obj._embedded.teamPassingStatsList[12].passYards;
     // passing yards 13
-    document.getElementById("passing_yards_17").innerHTML =
+    document.getElementById("passing_yards_32").innerHTML =
       passing_obj._embedded.teamPassingStatsList[13].passYards;
     // passing yards 14
-    document.getElementById("passing_yards_5").innerHTML =
+    document.getElementById("passing_yards_27").innerHTML =
       passing_obj._embedded.teamPassingStatsList[14].passYards;
     // passing yards 15
-    document.getElementById("passing_yards_26").innerHTML =
+    document.getElementById("passing_yards_25").innerHTML =
       passing_obj._embedded.teamPassingStatsList[15].passYards;
     //passing yards 16
-    document.getElementById("passing_yards_20").innerHTML =
+    document.getElementById("passing_yards_14").innerHTML =
       passing_obj._embedded.teamPassingStatsList[16].passYards;
     // passing yards 17
-    document.getElementById("passing_yards_19").innerHTML =
+    document.getElementById("passing_yards_21").innerHTML =
       passing_obj._embedded.teamPassingStatsList[17].passYards;
     // passing yards 18
-    document.getElementById("passing_yards_30").innerHTML =
+    document.getElementById("passing_yards_8").innerHTML =
       passing_obj._embedded.teamPassingStatsList[18].passYards;
     // passing yards 19
-    document.getElementById("passing_yards_24").innerHTML =
+    document.getElementById("passing_yards_10").innerHTML =
       passing_obj._embedded.teamPassingStatsList[19].passYards;
     //passing yards 20
-    document.getElementById("passing_yards_13").innerHTML =
+    document.getElementById("passing_yards_5").innerHTML =
       passing_obj._embedded.teamPassingStatsList[20].passYards;
     // passing yards 21
-    document.getElementById("passing_yards_8").innerHTML =
+    document.getElementById("passing_yards_29").innerHTML =
       passing_obj._embedded.teamPassingStatsList[21].passYards;
     // passing yards 22
-    document.getElementById("passing_yards_7").innerHTML =
+    document.getElementById("passing_yards_6").innerHTML =
       passing_obj._embedded.teamPassingStatsList[22].passYards;
     // passing yards 23
-    document.getElementById("passing_yards_2").innerHTML =
+    document.getElementById("passing_yards_4").innerHTML =
       passing_obj._embedded.teamPassingStatsList[23].passYards;
     //passing yards 24
-    document.getElementById("passing_yards_6").innerHTML =
+    document.getElementById("passing_yards_17").innerHTML =
       passing_obj._embedded.teamPassingStatsList[24].passYards;
     // passing yards 25
-    document.getElementById("passing_yards_18").innerHTML =
+    document.getElementById("passing_yards_1").innerHTML =
       passing_obj._embedded.teamPassingStatsList[25].passYards;
     //passing yards 26
-    document.getElementById("passing_yards_0").innerHTML =
+    document.getElementById("passing_yards_31").innerHTML =
       passing_obj._embedded.teamPassingStatsList[26].passYards;
     // passing yards 27
-    document.getElementById("passing_yards_28").innerHTML =
+    document.getElementById("passing_yards_3").innerHTML =
       passing_obj._embedded.teamPassingStatsList[27].passYards;
     // passing yards 28
-    document.getElementById("passing_yards_1").innerHTML =
+    document.getElementById("passing_yards_11").innerHTML =
       passing_obj._embedded.teamPassingStatsList[28].passYards;
     // passing yards 29
-    document.getElementById("passing_yards_9").innerHTML =
+    document.getElementById("passing_yards_28").innerHTML =
       passing_obj._embedded.teamPassingStatsList[29].passYards;
     //passing yards 30
-    document.getElementById("passing_yards_27").innerHTML =
+    document.getElementById("passing_yards_12").innerHTML =
       passing_obj._embedded.teamPassingStatsList[30].passYards;
     // passing yards 31
-    document.getElementById("passing_yards_12").innerHTML =
+    document.getElementById("passing_yards_13").innerHTML =
       passing_obj._embedded.teamPassingStatsList[31].passYards;
     // null
 
     // team name 0
-    document.getElementById("team_name_4").innerHTML =
+    document.getElementById("team_name_23").innerHTML =
       passing_obj._embedded.teamPassingStatsList[0].name;
     // team name 1
-    document.getElementById("team_name_11").innerHTML =
+    document.getElementById("team_name_26").innerHTML =
       passing_obj._embedded.teamPassingStatsList[1].name;
     // team name 2
-    document.getElementById("team_name_22").innerHTML =
+    document.getElementById("team_name_7").innerHTML =
       passing_obj._embedded.teamPassingStatsList[2].name;
     // team name 3
-    document.getElementById("team_name_25").innerHTML =
+    document.getElementById("team_name_24").innerHTML =
       passing_obj._embedded.teamPassingStatsList[3].name;
     // team name 4
-    document.getElementById("team_name_21").innerHTML =
+    document.getElementById("team_name_9").innerHTML =
       passing_obj._embedded.teamPassingStatsList[4].name;
     // team name 5
-    document.getElementById("team_name_15").innerHTML =
+    document.getElementById("team_name_16").innerHTML =
       passing_obj._embedded.teamPassingStatsList[5].name;
     // team name 6
-    document.getElementById("team_name_14").innerHTML =
+    document.getElementById("team_name_20").innerHTML =
       passing_obj._embedded.teamPassingStatsList[6].name;
     // team name 7
-    document.getElementById("team_name_3").innerHTML =
+    document.getElementById("team_name_30").innerHTML =
       passing_obj._embedded.teamPassingStatsList[7].name;
     // team name 8
-    document.getElementById("team_name_29").innerHTML =
+    document.getElementById("team_name_2").innerHTML =
       passing_obj._embedded.teamPassingStatsList[8].name;
     // team name 9
-    document.getElementById("team_name_16").innerHTML =
+    document.getElementById("team_name_15").innerHTML =
       passing_obj._embedded.teamPassingStatsList[9].name;
     // team name 10
-    document.getElementById("team_name_10").innerHTML =
+    document.getElementById("team_name_18").innerHTML =
       passing_obj._embedded.teamPassingStatsList[10].name;
     // team name 11
-    document.getElementById("team_name_31").innerHTML =
+    document.getElementById("team_name_19").innerHTML =
       passing_obj._embedded.teamPassingStatsList[11].name;
     // team name 12
-    document.getElementById("team_name_23").innerHTML =
+    document.getElementById("team_name_22").innerHTML =
       passing_obj._embedded.teamPassingStatsList[12].name;
     // team name 13
-    document.getElementById("team_name_17").innerHTML =
+    document.getElementById("team_name_32").innerHTML =
       passing_obj._embedded.teamPassingStatsList[13].name;
     // team name 14
-    document.getElementById("team_name_5").innerHTML =
+    document.getElementById("team_name_27").innerHTML =
       passing_obj._embedded.teamPassingStatsList[14].name;
     // team name 15
-    document.getElementById("team_name_26").innerHTML =
+    document.getElementById("team_name_25").innerHTML =
       passing_obj._embedded.teamPassingStatsList[15].name;
     // team name 16
-    document.getElementById("team_name_20").innerHTML =
+    document.getElementById("team_name_14").innerHTML =
       passing_obj._embedded.teamPassingStatsList[16].name;
     // team name 17
-    document.getElementById("team_name_19").innerHTML =
+    document.getElementById("team_name_21").innerHTML =
       passing_obj._embedded.teamPassingStatsList[17].name;
     // team name 18
-    document.getElementById("team_name_30").innerHTML =
+    document.getElementById("team_name_8").innerHTML =
       passing_obj._embedded.teamPassingStatsList[18].name;
     // team name 19
-    document.getElementById("team_name_24").innerHTML =
+    document.getElementById("team_name_10").innerHTML =
       passing_obj._embedded.teamPassingStatsList[19].name;
     // team name 20
-    document.getElementById("team_name_13").innerHTML =
+    document.getElementById("team_name_5").innerHTML =
       passing_obj._embedded.teamPassingStatsList[20].name;
     // team name 21
-    document.getElementById("team_name_8").innerHTML =
+    document.getElementById("team_name_29").innerHTML =
       passing_obj._embedded.teamPassingStatsList[21].name;
     // team name 22
-    document.getElementById("team_name_7").innerHTML =
+    document.getElementById("team_name_6").innerHTML =
       passing_obj._embedded.teamPassingStatsList[22].name;
     // team name 23
-    document.getElementById("team_name_2").innerHTML =
+    document.getElementById("team_name_4").innerHTML =
       passing_obj._embedded.teamPassingStatsList[23].name;
     // team name 24
-    document.getElementById("team_name_6").innerHTML =
+    document.getElementById("team_name_17").innerHTML =
       passing_obj._embedded.teamPassingStatsList[24].name;
     // team name 25
-    document.getElementById("team_name_18").innerHTML =
+    document.getElementById("team_name_1").innerHTML =
       passing_obj._embedded.teamPassingStatsList[25].name;
     // team name 26
-    document.getElementById("team_name_0").innerHTML =
+    document.getElementById("team_name_31").innerHTML =
       passing_obj._embedded.teamPassingStatsList[26].name;
     // team name 27
-    document.getElementById("team_name_28").innerHTML =
+    document.getElementById("team_name_3").innerHTML =
       passing_obj._embedded.teamPassingStatsList[27].name;
     // team name 28
-    document.getElementById("team_name_1").innerHTML =
+    document.getElementById("team_name_11").innerHTML =
       passing_obj._embedded.teamPassingStatsList[28].name;
     // team name 29
-    document.getElementById("team_name_9").innerHTML =
+    document.getElementById("team_name_28").innerHTML =
       passing_obj._embedded.teamPassingStatsList[29].name;
     // team name 30
-    document.getElementById("team_name_27").innerHTML =
+    document.getElementById("team_name_12").innerHTML =
       passing_obj._embedded.teamPassingStatsList[30].name;
     // team name 31
-    document.getElementById("team_name_12").innerHTML =
+    document.getElementById("team_name_13").innerHTML =
       passing_obj._embedded.teamPassingStatsList[31].name;
   });
 
@@ -721,197 +721,197 @@ fetch(
     let rushing_obj = JSON.parse(text);
 
     // team name 0
-    document.getElementById("rushing_yards_12").innerHTML =
+    document.getElementById("rushing_yards_13").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[0].yards;
     // team name 1
-    document.getElementById("rushing_yards_9").innerHTML =
+    document.getElementById("rushing_yards_12").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[1].yards;
     // team name 2
     document.getElementById("rushing_yards_1").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[2].yards;
     // team name 3
-    document.getElementById("rushing_yards_0").innerHTML =
+    document.getElementById("rushing_yards_2").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[3].yards;
     // team name 4
-    document.getElementById("rushing_yards_3").innerHTML =
+    document.getElementById("rushing_yards_29").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[4].yards;
     // team name 5
-    document.getElementById("rushing_yards_30").innerHTML =
+    document.getElementById("rushing_yards_3").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[5].yards;
     // team name 6
-    document.getElementById("rushing_yards_28").innerHTML =
+    document.getElementById("rushing_yards_4").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[6].yards;
     // team name 7
-    document.getElementById("rushing_yards_27").innerHTML =
+    document.getElementById("rushing_yards_31").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[7].yards;
     // team name 8
-    document.getElementById("rushing_yards_2").innerHTML =
+    document.getElementById("rushing_yards_28").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[8].yards;
     // team name 9
-    document.getElementById("rushing_yards_18").innerHTML =
+    document.getElementById("rushing_yards_6").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[9].yards;
     // team name 10
-    document.getElementById("rushing_yards_4").innerHTML =
+    document.getElementById("rushing_yards_14").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[10].yards;
     // team name 11
-    document.getElementById("rushing_yards_13").innerHTML =
+    document.getElementById("rushing_yards_15").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[11].yards;
     // team name 12
-    document.getElementById("rushing_yards_14").innerHTML =
+    document.getElementById("rushing_yards_32").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[12].yards;
     // team name 13
-    document.getElementById("rushing_yards_6").innerHTML =
+    document.getElementById("rushing_yards_26").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[13].yards;
     // team name 14
-    document.getElementById("rushing_yards_10").innerHTML =
+    document.getElementById("rushing_yards_20").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[14].yards;
     // team name 15
-    document.getElementById("rushing_yards_26").innerHTML =
+    document.getElementById("rushing_yards_7").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[15].yards;
     // team name 16
-    document.getElementById("rushing_yards_8").innerHTML =
+    document.getElementById("rushing_yards_11").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[16].yards;
     // team name 17
-    document.getElementById("rushing_yards_25").innerHTML =
+    document.getElementById("rushing_yards_27").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[17].yards;
     // team name 18
-    document.getElementById("rushing_yards_20").innerHTML =
+    document.getElementById("rushing_yards_17").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[18].yards;
     // team name 19
-    document.getElementById("rushing_yards_31").innerHTML =
+    document.getElementById("rushing_yards_21").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[19].yards;
     // team name 20
-    document.getElementById("rushing_yards_16").innerHTML =
+    document.getElementById("rushing_yards_30").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[20].yards;
     // team name 21
-    document.getElementById("rushing_yards_19").innerHTML =
+    document.getElementById("rushing_yards_18").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[21].yards;
     // team name 22
-    document.getElementById("rushing_yards_7").innerHTML =
+    document.getElementById("rushing_yards_10").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[22].yards;
     // team name 23
-    document.getElementById("rushing_yards_29").innerHTML =
+    document.getElementById("rushing_yards_24").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[23].yards;
     // team name 24
-    document.getElementById("rushing_yards_21").innerHTML =
+    document.getElementById("rushing_yards_5").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[24].yards;
     // team name 25
     document.getElementById("rushing_yards_22").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[25].yards;
     // team name 26
-    document.getElementById("rushing_yards_17").innerHTML =
+    document.getElementById("rushing_yards_16").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[26].yards;
     // team name 27
-    document.getElementById("rushing_yards_15").innerHTML =
+    document.getElementById("rushing_yards_8").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[27].yards;
     // team name 28
-    document.getElementById("rushing_yards_11").innerHTML =
+    document.getElementById("rushing_yards_23").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[28].yards;
     // team name 29
-    document.getElementById("rushing_yards_24").innerHTML =
+    document.getElementById("rushing_yards_19").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[29].yards;
     // team name 30
-    document.getElementById("rushing_yards_23").innerHTML =
+    document.getElementById("rushing_yards_25").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[30].yards;
     // team name 31
-    document.getElementById("rushing_yards_5").innerHTML =
+    document.getElementById("rushing_yards_9").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[31].yards;
 
     // team name 0
-    document.getElementById("r_name_12").innerHTML =
+    document.getElementById("r_name_13").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[0].name;
     // team name 1
-    document.getElementById("r_name_9").innerHTML =
+    document.getElementById("r_name_12").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[1].name;
     // team name 2
     document.getElementById("r_name_1").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[2].name;
     // team name 3
-    document.getElementById("r_name_0").innerHTML =
+    document.getElementById("r_name_2").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[3].name;
     // team name 4
-    document.getElementById("r_name_3").innerHTML =
+    document.getElementById("r_name_29").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[4].name;
     // team name 5
-    document.getElementById("r_name_30").innerHTML =
+    document.getElementById("r_name_3").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[5].name;
     // team name 6
-    document.getElementById("r_name_28").innerHTML =
+    document.getElementById("r_name_4").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[6].name;
     // team name 7
-    document.getElementById("r_name_27").innerHTML =
+    document.getElementById("r_name_31").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[7].name;
     // team name 8
-    document.getElementById("r_name_2").innerHTML =
+    document.getElementById("r_name_28").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[8].name;
     // team name 9
-    document.getElementById("r_name_18").innerHTML =
+    document.getElementById("r_name_6").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[9].name;
     // team name 10
-    document.getElementById("r_name_4").innerHTML =
+    document.getElementById("r_name_14").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[10].name;
     // team name 11
-    document.getElementById("r_name_13").innerHTML =
+    document.getElementById("r_name_15").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[11].name;
     // team name 12
-    document.getElementById("r_name_14").innerHTML =
+    document.getElementById("r_name_32").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[12].name;
     // team name 13
-    document.getElementById("r_name_6").innerHTML =
+    document.getElementById("r_name_26").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[13].name;
     // team name 14
-    document.getElementById("r_name_10").innerHTML =
+    document.getElementById("r_name_20").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[14].name;
     // team name 15
-    document.getElementById("r_name_26").innerHTML =
+    document.getElementById("r_name_7").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[15].name;
     // team name 16
-    document.getElementById("r_name_8").innerHTML =
+    document.getElementById("r_name_11").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[16].name;
     // team name 17
-    document.getElementById("r_name_25").innerHTML =
+    document.getElementById("r_name_27").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[17].name;
     // team name 18
-    document.getElementById("r_name_20").innerHTML =
+    document.getElementById("r_name_17").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[18].name;
     // team name 19
-    document.getElementById("r_name_31").innerHTML =
+    document.getElementById("r_name_21").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[19].name;
     // team name 20
-    document.getElementById("r_name_16").innerHTML =
+    document.getElementById("r_name_30").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[20].name;
     // team name 21
-    document.getElementById("r_name_19").innerHTML =
+    document.getElementById("r_name_18").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[21].name;
     // team name 22
-    document.getElementById("r_name_7").innerHTML =
+    document.getElementById("r_name_10").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[22].name;
     // team name 23
-    document.getElementById("r_name_29").innerHTML =
+    document.getElementById("r_name_24").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[23].name;
     // team name 24
-    document.getElementById("r_name_21").innerHTML =
+    document.getElementById("r_name_5").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[24].name;
     // team name 25
     document.getElementById("r_name_22").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[25].name;
     // team name 26
-    document.getElementById("r_name_17").innerHTML =
+    document.getElementById("r_name_16").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[26].name;
     // team name 27
-    document.getElementById("r_name_15").innerHTML =
+    document.getElementById("r_name_8").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[27].name;
     // team name 28
-    document.getElementById("r_name_11").innerHTML =
+    document.getElementById("r_name_23").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[28].name;
     // team name 29
-    document.getElementById("r_name_24").innerHTML =
+    document.getElementById("r_name_19").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[29].name;
     // team name 30
-    document.getElementById("r_name_23").innerHTML =
+    document.getElementById("r_name_25").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[30].name;
     // team name 31
-    document.getElementById("r_name_5").innerHTML =
+    document.getElementById("r_name_9").innerHTML =
       rushing_obj._embedded.teamRushingStatsList[31].name;
   });
 
